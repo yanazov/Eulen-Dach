@@ -1,0 +1,131 @@
+<!doctype html>
+<html>
+<head>	
+	<meta charset="utf-8">
+	<title>EulenDach</title>
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
+	<script type="text/javascript" src="js/jScrollPane.js"></script>
+	<link rel="stylesheet" type="text/css" href="styles/styles.css" > 	
+	<link rel="stylesheet" type="text/css" href="styles/jScrollPane.css">
+	<!--[if IE]>
+		<link rel="stylesheet" type="text/css" href="styles/styles_ie.css" > 
+	<![endif]-->	
+    <!--[if lt IE 9]> 
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> 
+    <![endif]-->
+	<script type="text/javascript">
+		$(function()
+		{
+			$('.main_content').jScrollPane({showArrows:true, scrollbarWidth:19, dragMaxHeight:43});
+		});
+	</script>
+	
+	
+</head>
+<body>
+	
+<!-- BEGIN CONTEINER  
+	<div id="container" class="container_center">  -->
+	<header class="header">
+		<div class="header_center">
+			<a href=""><div class="logo"></div></a>
+			<a href=""><span class="logo_txt">Eulen Dach <br/><span class="logo_txt_small"> Клуб-школа иностранных языков</span></span></a>
+			<a href=""><span class="personal">Персональная страничка <br/><span class="logo_txt_small"> войдите под своим логином и паролем</span></span></a>
+			<nav id="menu">
+				<ul>
+					<li><a href="">О нас</a></li>
+					<li><a href="">Расписание и цены</a></li>
+					<li><a href="">Наши события</a></li>
+					<li><a href="">Литература</a></li>
+					<li><a href="">Наши друзья</a></li>
+					<li><a href="">Контакты</a></li>
+				</ul>
+			</nav>	
+		
+			
+		</div>
+	</header>
+	<div class="fon_back">
+		<div class="fon_midlle">
+			
+			
+			<div class="scroll-wrap">
+			<h1>Контакты</h1>
+			<span class="navigation"><a href="">Главная</a> / Контакты</span>
+				<div class="main_content">
+					<ul class="contacts_adres">
+						<li><span class="bold_txt">Eulen Dach</span></li>
+						<li>ул. Пушкинская, 31 А офис 3</li>
+						<li><span class="bold_txt">Для писем:</span></li>
+						<li>а/я 499, г.Киев, 01001</li>					
+					</ul>
+					<ul class="contacts_tel">
+						<li><span class="bold_txt">Телефоны</span></li>
+						<li>+38 044 502-65-41</li>
+						<li>+38 044 502-65-42</li>
+						<li>+38 044 270-52-90</li>					
+					</ul>
+					<div class="contacts_map"></div>
+					<h1>Обратная связь</h1>
+					<form class="contacts_personal_info">
+						<input type="text" value="Ваше имя">
+						<input type="tel" value="Ваш номер телефона">
+						<input type="email" value="Ваш E-Mail">
+						<textarea class="access_order_coments_fill" value="Текст письма"></textarea>
+					</form>
+					
+					
+					<div class="foto">   <!-- BEGIN   foto -->
+						<span class="main_about_head">Как мы учимся</span>
+						<a class="to_inner" href="">Все фотографии</a>	
+						<ul>
+							<li><img src="img/foto1.jpg" alt=""></li>
+							<li><img src="img/foto2.jpg" alt=""></li>
+							<li><img src="img/foto3.jpg" alt=""></li>
+						</ul>
+						<div class="foto_ArrowLeft" onclick="js_foto_left()"></div>
+						<div class="foto_ArrowRight" onclick="js_foto_right()"></div>
+					</div>   <!-- END   foto -->
+					<div class="frends">   
+						<span class="main_about_head">Друзья и партнеры</span>
+						<ul>
+							<li><a href=""><img src="img/sponsor1.png" alt=""></a></li>
+							<li><a href=""><img src="img/sponsor2.png" alt=""></a></li>
+							<li><a href=""><img src="img/sponsor3.png" alt=""></a></li>
+							<li><a href=""><img src="img/sponsor4.png" alt=""></a></li>
+							<li><a href=""><img src="img/sponsor5.png" alt=""></a></li>
+							<li><a href=""><img src="img/sponsor6.png" alt=""></a></li>
+							<li><a href=""><img src="img/sponsor7.png" alt=""></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="footer">
+		<div class="footer_center">	
+			<span class="copyrite">
+				Школа английского языка<br/>
+				<span class="bold_txt">Eulen Dach</span><br/>
+				Все права защищены. 2013 (с)
+			</span>
+			<ul class="footer_menu1">
+				<li><a href="">О нас</a></li>
+				<li><a href="">Расписание и цены</a></li>
+				<li><a href="">Наши события</a></li>
+			</ul>
+			<ul class="footer_menu2">
+				<li><a href="">Литература</a></li>
+				<li><a href="">Наши друзья</a></li>
+				<li><a href="">Контакты</a></li>
+			</ul>
+			<span class="made_in">
+				Сайт разработан<br/>
+				в компании <a href="http://www.webmanager-pro.com">Web.Manager</a>
+			
+			</span>
+		</div>
+	</footer>
+</body>
+</html>
