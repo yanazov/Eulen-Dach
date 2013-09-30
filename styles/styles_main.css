@@ -70,21 +70,22 @@
 /* line 91, ../sass/styles_main.scss */
 body {
   display: block;
+  max-width: 1600px;
   font-size: 0pt;
   text-align: center;
-  margin: 0px 0px 0px 0px;
+  margin: 0 auto;
   background: url(../img/fon_article.jpg) 50% 0% no-repeat;
   background-color: #f1e7d5;
   font-family: arial;
 }
 
-/* line 102, ../sass/styles_main.scss */
+/* line 103, ../sass/styles_main.scss */
 ul {
   list-style-type: none;
   padding: 0px;
 }
 
-/* line 107, ../sass/styles_main.scss */
+/* line 108, ../sass/styles_main.scss */
 h1 {
   font-family: 'disneyparkregular';
   font-size: 32pt;
@@ -93,37 +94,38 @@ h1 {
   margin: 5px 0px 0px 0px;
 }
 
-/* line 116, ../sass/styles_main.scss */
+/* line 117, ../sass/styles_main.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 122, ../sass/styles_main.scss */
+/* line 123, ../sass/styles_main.scss */
 .bold_txt {
   font-weight: 900;
 }
 
-/* line 126, ../sass/styles_main.scss */
+/* line 127, ../sass/styles_main.scss */
 .header {
   display: block;
   position: absolute;
   background: url(../img/fon_header.png) repeat-x;
-  width: 100%;
+  max-width: 1600px;
+  margin: 0 auto;
   height: 249px;
   text-align: center;
 }
-/* line 133, ../sass/styles_main.scss */
+/* line 135, ../sass/styles_main.scss */
 .header .header_center {
   display: inline-block;
   position: relative;
   width: 887px;
   text-align: left;
 }
-/* line 138, ../sass/styles_main.scss */
+/* line 140, ../sass/styles_main.scss */
 .header .header_center a {
   text-decoration: none;
 }
-/* line 141, ../sass/styles_main.scss */
+/* line 143, ../sass/styles_main.scss */
 .header .header_center .logo {
   float: left;
   background: url(../img/logo.png) repeat-x;
@@ -131,7 +133,7 @@ a:hover {
   height: 103px;
   margin-top: 20px;
 }
-/* line 148, ../sass/styles_main.scss */
+/* line 150, ../sass/styles_main.scss */
 .header .header_center .logo_txt {
   float: left;
   margin-top: 17px;
@@ -139,7 +141,7 @@ a:hover {
   font-family: 'disneyparkregular';
   font-size: 40pt;
 }
-/* line 155, ../sass/styles_main.scss */
+/* line 157, ../sass/styles_main.scss */
 .header .header_center .logo_txt .logo_txt_small {
   display: block;
   position: relative;
@@ -148,7 +150,7 @@ a:hover {
   font-size: 9pt;
   font-family: 'Conv_Dynar-Medium';
 }
-/* line 164, ../sass/styles_main.scss */
+/* line 166, ../sass/styles_main.scss */
 .header .header_center .personal {
   float: right;
   margin-top: 30px;
@@ -156,7 +158,7 @@ a:hover {
   font-family: 'disneyparkregular';
   font-size: 30pt;
 }
-/* line 171, ../sass/styles_main.scss */
+/* line 173, ../sass/styles_main.scss */
 .header .header_center .personal .logo_txt_small {
   display: block;
   position: relative;
@@ -165,7 +167,7 @@ a:hover {
   font-size: 9pt;
   font-family: 'Conv_Dynar-Medium';
 }
-/* line 180, ../sass/styles_main.scss */
+/* line 182, ../sass/styles_main.scss */
 .header .header_center ul {
   display: inline-block;
   position: relative;
@@ -173,7 +175,7 @@ a:hover {
   width: 800px;
   text-align: left;
 }
-/* line 186, ../sass/styles_main.scss */
+/* line 188, ../sass/styles_main.scss */
 .header .header_center ul li {
   display: inline-block;
   position: relative;
@@ -183,17 +185,17 @@ a:hover {
   font-family: 'Conv_Dynar-Medium';
   background: url(../img/header_separ.png) no-repeat;
 }
-/* line 195, ../sass/styles_main.scss */
+/* line 197, ../sass/styles_main.scss */
 .header .header_center ul li a {
   color: #fff;
   text-decoration: none;
 }
-/* line 200, ../sass/styles_main.scss */
+/* line 202, ../sass/styles_main.scss */
 .header .header_center ul li:first-child {
   margin-left: 3px;
   background: none;
 }
-/* line 205, ../sass/styles_main.scss */
+/* line 207, ../sass/styles_main.scss */
 .header .header_center .menu_events {
   display: none;
   position: absolute;
@@ -209,7 +211,7 @@ a:hover {
   -khtml-border-radius: 5px 5px 5px 5px;
   z-index: 100;
 }
-/* line 221, ../sass/styles_main.scss */
+/* line 223, ../sass/styles_main.scss */
 .header .header_center .menu_events ul {
   display: block;
   position: relative;
@@ -225,7 +227,7 @@ a:hover {
   -moz-border-radius: 5px 5px 5px 5px;
   -khtml-border-radius: 5px 5px 5px 5px;
 }
-/* line 236, ../sass/styles_main.scss */
+/* line 238, ../sass/styles_main.scss */
 .header .header_center .menu_events ul li {
   display: block;
   position: relative;
@@ -235,24 +237,24 @@ a:hover {
   border-bottom: 1px dashed #95805f;
   padding-bottom: 10px;
 }
-/* line 244, ../sass/styles_main.scss */
+/* line 246, ../sass/styles_main.scss */
 .header .header_center .menu_events ul li a {
   color: #95805f;
 }
-/* line 247, ../sass/styles_main.scss */
+/* line 249, ../sass/styles_main.scss */
 .header .header_center .menu_events ul li a:hover {
   color: #6b5c45;
 }
-/* line 252, ../sass/styles_main.scss */
+/* line 254, ../sass/styles_main.scss */
 .header .header_center .menu_events ul li:last-child {
   border: none;
 }
-/* line 255, ../sass/styles_main.scss */
+/* line 257, ../sass/styles_main.scss */
 .header .header_center .menu_events ul li:first-child {
   margin-top: 20px;
 }
 
-/* line 265, ../sass/styles_main.scss */
+/* line 267, ../sass/styles_main.scss */
 .fon_back {
   display: inline-block;
   position: relative;
@@ -267,7 +269,7 @@ a:hover {
   -moz-border-radius: 5px 5px 5px 5px;
   -khtml-border-radius: 5px 5px 5px 5px;
 }
-/* line 280, ../sass/styles_main.scss */
+/* line 282, ../sass/styles_main.scss */
 .fon_back .fon_midlle {
   display: inline-block;
   position: relative;
@@ -297,7 +299,7 @@ a:hover {
   font-weight: 400;
   /* ///////////////////////////////////////////////////////////////////////////////////*/
 }
-/* line 300, ../sass/styles_main.scss */
+/* line 302, ../sass/styles_main.scss */
 .fon_back .fon_midlle .navigation {
   display: block;
   font-family: 'georgiaitalic';
@@ -305,18 +307,18 @@ a:hover {
   color: #9c8359;
   margin-bottom: 18px;
 }
-/* line 306, ../sass/styles_main.scss */
+/* line 308, ../sass/styles_main.scss */
 .fon_back .fon_midlle .navigation a {
   color: #9c8359;
   text-decoration: none;
 }
-/* line 323, ../sass/styles_main.scss */
+/* line 325, ../sass/styles_main.scss */
 .fon_back .fon_midlle .next_text {
   display: inline-block;
   position: relative;
   height: 130px;
 }
-/* line 328, ../sass/styles_main.scss */
+/* line 330, ../sass/styles_main.scss */
 .fon_back .fon_midlle .about_img {
   display: inline-block;
   position: relative;
@@ -324,7 +326,7 @@ a:hover {
   margin: 0px 25px 5px 0px;
   height: 289px;
 }
-/* line 337, ../sass/styles_main.scss */
+/* line 339, ../sass/styles_main.scss */
 .fon_back .fon_midlle .record {
   display: inline-block;
   position: relative;
@@ -342,11 +344,11 @@ a:hover {
   line-height: 25px;
   cursor: pointer;
 }
-/* line 354, ../sass/styles_main.scss */
+/* line 356, ../sass/styles_main.scss */
 .fon_back .fon_midlle .record:hover {
   color: #825f25;
 }
-/* line 358, ../sass/styles_main.scss */
+/* line 360, ../sass/styles_main.scss */
 .fon_back .fon_midlle .main_about_head {
   display: inline-block;
   position: relative;
@@ -354,17 +356,17 @@ a:hover {
   font-size: 37pt;
   color: #6a4d1e;
 }
-/* line 364, ../sass/styles_main.scss */
+/* line 366, ../sass/styles_main.scss */
 .fon_back .fon_midlle .main_about_head span {
   color: #31870b;
 }
-/* line 368, ../sass/styles_main.scss */
+/* line 370, ../sass/styles_main.scss */
 .fon_back .fon_midlle .main_about_left {
   display: inline-block;
   position: relative;
   width: 49%;
 }
-/* line 373, ../sass/styles_main.scss */
+/* line 375, ../sass/styles_main.scss */
 .fon_back .fon_midlle .main_about_right {
   display: inline-block;
   position: absolute;
@@ -372,7 +374,7 @@ a:hover {
   top: 63px;
   width: 49%;
 }
-/* line 379, ../sass/styles_main.scss */
+/* line 381, ../sass/styles_main.scss */
 .fon_back .fon_midlle .main_about_right .record {
   display: block;
   position: relative;
@@ -391,11 +393,11 @@ a:hover {
   cursor: pointer;
   text-decoration: none;
 }
-/* line 397, ../sass/styles_main.scss */
+/* line 399, ../sass/styles_main.scss */
 .fon_back .fon_midlle .main_about_right .record:hover {
   color: #825f25;
 }
-/* line 401, ../sass/styles_main.scss */
+/* line 403, ../sass/styles_main.scss */
 .fon_back .fon_midlle .img_1 {
   margin-top: 20px;
   display: inline-block;
@@ -405,7 +407,7 @@ a:hover {
   height: 167px;
   background: url(../img/pic2.jpg) no-repeat;
 }
-/* line 410, ../sass/styles_main.scss */
+/* line 412, ../sass/styles_main.scss */
 .fon_back .fon_midlle .events {
   display: inline-block;
   position: relative;
@@ -414,7 +416,7 @@ a:hover {
   text-align: justify;
   width: 100%;
 }
-/* line 417, ../sass/styles_main.scss */
+/* line 419, ../sass/styles_main.scss */
 .fon_back .fon_midlle .events .to_inner {
   display: block;
   position: absolute;
@@ -425,17 +427,17 @@ a:hover {
   color: #6a4d1e;
   text-decoration: underline;
 }
-/* line 427, ../sass/styles_main.scss */
+/* line 429, ../sass/styles_main.scss */
 .fon_back .fon_midlle .events .to_inner:hover {
   text-decoration: none;
 }
-/* line 430, ../sass/styles_main.scss */
+/* line 432, ../sass/styles_main.scss */
 .fon_back .fon_midlle .events ul {
   display: inline-block;
   position: relative;
   width: 100%;
 }
-/* line 436, ../sass/styles_main.scss */
+/* line 438, ../sass/styles_main.scss */
 .fon_back .fon_midlle .events li {
   display: inline-block;
   position: relative;
@@ -444,7 +446,7 @@ a:hover {
   /* 17  */
   text-align: left;
 }
-/* line 442, ../sass/styles_main.scss */
+/* line 444, ../sass/styles_main.scss */
 .fon_back .fon_midlle .events li a {
   display: inline-block;
   position: relative;
@@ -452,26 +454,26 @@ a:hover {
   font-family: 'georgiaitalic';
   font-size: 12pt;
 }
-/* line 449, ../sass/styles_main.scss */
+/* line 451, ../sass/styles_main.scss */
 .fon_back .fon_midlle .events li img {
   display: inline-block;
   position: relative;
   margin: 15px 0px 5px 0px;
   height: 128px;
 }
-/* line 456, ../sass/styles_main.scss */
+/* line 458, ../sass/styles_main.scss */
 .fon_back .fon_midlle .events li:first-child {
   display: inline-block;
   position: relative;
   margin-left: 0px;
 }
-/* line 462, ../sass/styles_main.scss */
+/* line 464, ../sass/styles_main.scss */
 .fon_back .fon_midlle .events li:last-child {
   display: inline-block;
   position: relative;
   width: 240px;
 }
-/* line 466, ../sass/styles_main.scss */
+/* line 468, ../sass/styles_main.scss */
 .fon_back .fon_midlle .events li:last-child a {
   display: inline-block;
   position: relative;
@@ -479,7 +481,7 @@ a:hover {
   font-family: 'georgiaitalic';
   font-size: 12pt;
 }
-/* line 473, ../sass/styles_main.scss */
+/* line 475, ../sass/styles_main.scss */
 .fon_back .fon_midlle .events li:last-child img {
   ddisplay: inline-block;
   position: relative;
@@ -487,7 +489,7 @@ a:hover {
 }
 
 /* ============================================== BEGIN BLOCK 2 =================================== */
-/* line 483, ../sass/styles_main.scss */
+/* line 485, ../sass/styles_main.scss */
 .fon_back_block2 {
   display: inline-block;
   position: relative;
@@ -501,7 +503,7 @@ a:hover {
   -moz-border-radius: 5px 5px 5px 5px;
   -khtml-border-radius: 5px 5px 5px 5px;
 }
-/* line 497, ../sass/styles_main.scss */
+/* line 499, ../sass/styles_main.scss */
 .fon_back_block2 .fon_midlle_block2 {
   display: inline-block;
   position: relative;
@@ -523,7 +525,7 @@ a:hover {
   font-family: 'georgiaregular';
   font-weight: 400;
 }
-/* line 521, ../sass/styles_main.scss */
+/* line 523, ../sass/styles_main.scss */
 .fon_back_block2 .fon_midlle_block2 .main_about_head {
   display: inline-block;
   position: relative;
@@ -531,18 +533,18 @@ a:hover {
   font-size: 37pt;
   color: #6a4d1e;
 }
-/* line 527, ../sass/styles_main.scss */
+/* line 529, ../sass/styles_main.scss */
 .fon_back_block2 .fon_midlle_block2 .main_about_head span {
   color: #31870b;
 }
-/* line 532, ../sass/styles_main.scss */
+/* line 534, ../sass/styles_main.scss */
 .fon_back_block2 .fon_midlle_block2 .group {
   display: block;
   position: relative;
   margin-top: 20px;
   text-align: justify;
 }
-/* line 537, ../sass/styles_main.scss */
+/* line 539, ../sass/styles_main.scss */
 .fon_back_block2 .fon_midlle_block2 .group .to_inner {
   display: inline-block;
   position: absolute;
@@ -553,11 +555,11 @@ a:hover {
   color: #6a4d1e;
   text-decoration: underline;
 }
-/* line 547, ../sass/styles_main.scss */
+/* line 549, ../sass/styles_main.scss */
 .fon_back_block2 .fon_midlle_block2 .group .to_inner:hover {
   text-decoration: none;
 }
-/* line 550, ../sass/styles_main.scss */
+/* line 552, ../sass/styles_main.scss */
 .fon_back_block2 .fon_midlle_block2 .group .group_ul {
   display: block;
   position: relative;
@@ -567,7 +569,7 @@ a:hover {
   overflow: hidden;
   margin-left: 25px;
 }
-/* line 558, ../sass/styles_main.scss */
+/* line 560, ../sass/styles_main.scss */
 .fon_back_block2 .fon_midlle_block2 .group .group_ul .raspisanie {
   display: inline-block;
   position: relative;
@@ -576,17 +578,17 @@ a:hover {
   background: url(../img/fon_group.png) no-repeat;
   color: #6a4d1e;
 }
-/* line 567, ../sass/styles_main.scss */
+/* line 569, ../sass/styles_main.scss */
 .fon_back_block2 .fon_midlle_block2 .group .group_ul .li {
   display: inline-block;
   position: relative;
 }
-/* line 572, ../sass/styles_main.scss */
+/* line 574, ../sass/styles_main.scss */
 .fon_back_block2 .fon_midlle_block2 .group .group_ul .group_li1 {
   display: inline-block;
   position: relative;
 }
-/* line 576, ../sass/styles_main.scss */
+/* line 578, ../sass/styles_main.scss */
 .fon_back_block2 .fon_midlle_block2 .group .group_ul .group_li2 {
   display: inline-block;
   position: relative;
@@ -598,7 +600,7 @@ a:hover {
   font-size: 10pt;
   width: 210px;
 }
-/* line 587, ../sass/styles_main.scss */
+/* line 589, ../sass/styles_main.scss */
 .fon_back_block2 .fon_midlle_block2 .group .group_ul .group_li2:first-child {
   margin-top: 10px;
   margin-left: 20px;
@@ -609,11 +611,11 @@ a:hover {
   font-family: 'georgiaitalic';
   font-size: 12pt;
 }
-/* line 597, ../sass/styles_main.scss */
+/* line 599, ../sass/styles_main.scss */
 .fon_back_block2 .fon_midlle_block2 .group .group_ul .group_li2:last-child {
   border: none;
 }
-/* line 601, ../sass/styles_main.scss */
+/* line 603, ../sass/styles_main.scss */
 .fon_back_block2 .fon_midlle_block2 .group .group_ArrowLeft {
   display: block;
   position: absolute;
@@ -625,7 +627,7 @@ a:hover {
   z-index: 10;
   cursor: pointer;
 }
-/* line 612, ../sass/styles_main.scss */
+/* line 614, ../sass/styles_main.scss */
 .fon_back_block2 .fon_midlle_block2 .group .group_ArrowRight {
   display: block;
   position: absolute;
@@ -637,14 +639,14 @@ a:hover {
   z-index: 10;
   cursor: pointer;
 }
-/* line 624, ../sass/styles_main.scss */
+/* line 626, ../sass/styles_main.scss */
 .fon_back_block2 .fon_midlle_block2 .price {
   display: block;
   position: relative;
   margin-top: 20px;
   text-align: justify;
 }
-/* line 629, ../sass/styles_main.scss */
+/* line 631, ../sass/styles_main.scss */
 .fon_back_block2 .fon_midlle_block2 .price .price_owl {
   display: block;
   position: absolute;
@@ -655,7 +657,7 @@ a:hover {
   background: url(../img/owl.png) no-repeat;
   z-index: 10;
 }
-/* line 639, ../sass/styles_main.scss */
+/* line 641, ../sass/styles_main.scss */
 .fon_back_block2 .fon_midlle_block2 .price .to_inner {
   display: inline-block;
   position: absolute;
@@ -666,11 +668,11 @@ a:hover {
   color: #6a4d1e;
   text-decoration: underline;
 }
-/* line 649, ../sass/styles_main.scss */
+/* line 651, ../sass/styles_main.scss */
 .fon_back_block2 .fon_midlle_block2 .price .to_inner:hover {
   text-decoration: none;
 }
-/* line 652, ../sass/styles_main.scss */
+/* line 654, ../sass/styles_main.scss */
 .fon_back_block2 .fon_midlle_block2 .price .fon_table {
   display: block;
   position: relative;
@@ -681,7 +683,7 @@ a:hover {
   height: 398px;
   z-index: 20;
 }
-/* line 661, ../sass/styles_main.scss */
+/* line 663, ../sass/styles_main.scss */
 .fon_back_block2 .fon_midlle_block2 .price .fon_table .price_ul {
   display: block;
   position: relative;
@@ -689,7 +691,7 @@ a:hover {
   width: 792px;
   border: 1px solid #d6b98b;
 }
-/* line 667, ../sass/styles_main.scss */
+/* line 669, ../sass/styles_main.scss */
 .fon_back_block2 .fon_midlle_block2 .price .fon_table .price_ul li {
   display: inline-block;
   position: relative;
@@ -701,16 +703,16 @@ a:hover {
   margin-left: 16px;
   padding: 9px 0px 9px 0px;
 }
-/* line 678, ../sass/styles_main.scss */
+/* line 680, ../sass/styles_main.scss */
 .fon_back_block2 .fon_midlle_block2 .price .fon_table .price_ul li:first-child {
   margin-left: 20px;
 }
-/* line 681, ../sass/styles_main.scss */
+/* line 683, ../sass/styles_main.scss */
 .fon_back_block2 .fon_midlle_block2 .price .fon_table .price_ul li:last-child {
   width: 145px;
   margin-left: 20px;
 }
-/* line 687, ../sass/styles_main.scss */
+/* line 689, ../sass/styles_main.scss */
 .fon_back_block2 .fon_midlle_block2 .price .fon_table .price_content {
   display: block;
   position: relative;
@@ -720,7 +722,7 @@ a:hover {
   border: 1px solid #d6b98b;
   border-top: none;
 }
-/* line 697, ../sass/styles_main.scss */
+/* line 699, ../sass/styles_main.scss */
 .fon_back_block2 .fon_midlle_block2 .price .fon_table .price_content .price_li .price_ul_dark li {
   display: inline-block;
   position: relative;
@@ -732,20 +734,20 @@ a:hover {
   margin-left: 16px;
   padding: 9px 0px 9px 0px;
 }
-/* line 708, ../sass/styles_main.scss */
+/* line 710, ../sass/styles_main.scss */
 .fon_back_block2 .fon_midlle_block2 .price .fon_table .price_content .price_li .price_ul_dark li:first-child {
   margin-left: 20px;
 }
-/* line 711, ../sass/styles_main.scss */
+/* line 713, ../sass/styles_main.scss */
 .fon_back_block2 .fon_midlle_block2 .price .fon_table .price_content .price_li .price_ul_dark li:last-child {
   width: 145px;
 }
-/* line 715, ../sass/styles_main.scss */
+/* line 717, ../sass/styles_main.scss */
 .fon_back_block2 .fon_midlle_block2 .price .fon_table .price_content .price_li .price_ul_light {
   background: url(../img/fon_light.png);
   /*background-color: #f38;*/
 }
-/* line 718, ../sass/styles_main.scss */
+/* line 720, ../sass/styles_main.scss */
 .fon_back_block2 .fon_midlle_block2 .price .fon_table .price_content .price_li .price_ul_light li {
   display: inline-block;
   position: relative;
@@ -757,18 +759,18 @@ a:hover {
   margin-left: 16px;
   padding: 9px 0px 9px 0px;
 }
-/* line 729, ../sass/styles_main.scss */
+/* line 731, ../sass/styles_main.scss */
 .fon_back_block2 .fon_midlle_block2 .price .fon_table .price_content .price_li .price_ul_light li:first-child {
   margin-left: 20px;
 }
-/* line 732, ../sass/styles_main.scss */
+/* line 734, ../sass/styles_main.scss */
 .fon_back_block2 .fon_midlle_block2 .price .fon_table .price_content .price_li .price_ul_light li:last-child {
   width: 145px;
 }
 
 /* ============================================== END BLOCK 2 =================================== */
 /* ============================================== BEGIN BLOCK 3 =================================== */
-/* line 745, ../sass/styles_main.scss */
+/* line 747, ../sass/styles_main.scss */
 .fon_back_block3 {
   display: inline-block;
   position: relative;
@@ -782,7 +784,7 @@ a:hover {
   -moz-border-radius: 5px 5px 5px 5px;
   -khtml-border-radius: 5px 5px 5px 5px;
 }
-/* line 759, ../sass/styles_main.scss */
+/* line 761, ../sass/styles_main.scss */
 .fon_back_block3 .fon_midlle_block3 {
   display: inline-block;
   position: relative;
@@ -804,7 +806,7 @@ a:hover {
   font-family: 'georgiaregular';
   font-weight: 400;
 }
-/* line 783, ../sass/styles_main.scss */
+/* line 785, ../sass/styles_main.scss */
 .fon_back_block3 .fon_midlle_block3 .main_about_head {
   display: inline-block;
   position: relative;
@@ -812,25 +814,25 @@ a:hover {
   font-size: 37pt;
   color: #6a4d1e;
 }
-/* line 789, ../sass/styles_main.scss */
+/* line 791, ../sass/styles_main.scss */
 .fon_back_block3 .fon_midlle_block3 .main_about_head span {
   color: #31870b;
 }
-/* line 793, ../sass/styles_main.scss */
+/* line 795, ../sass/styles_main.scss */
 .fon_back_block3 .fon_midlle_block3 .online {
   display: block;
   position: relative;
   margin-top: 5px;
   padding: 0px 260px 0px 150px;
 }
-/* line 798, ../sass/styles_main.scss */
+/* line 800, ../sass/styles_main.scss */
 .fon_back_block3 .fon_midlle_block3 .online .online_txt {
   display: block;
   position: relative;
   font-family: 'georgiaregular';
   font-size: 11pt;
 }
-/* line 804, ../sass/styles_main.scss */
+/* line 806, ../sass/styles_main.scss */
 .fon_back_block3 .fon_midlle_block3 .online .open_book {
   display: block;
   position: absolute;
@@ -841,7 +843,7 @@ a:hover {
   background-size: contain;
   background: url(../img/open_book.png) no-repeat;
 }
-/* line 814, ../sass/styles_main.scss */
+/* line 816, ../sass/styles_main.scss */
 .fon_back_block3 .fon_midlle_block3 .online .online_btn {
   display: block;
   position: absolute;
@@ -860,14 +862,14 @@ a:hover {
   cursor: pointer;
   text-decoration: none;
 }
-/* line 832, ../sass/styles_main.scss */
+/* line 834, ../sass/styles_main.scss */
 .fon_back_block3 .fon_midlle_block3 .online .online_btn:hover {
   color: #825f25;
 }
 
 /* ============================================== END BLOCK 3 =================================== */
 /* ============================================== BEGIN BLOCK 4 =================================== */
-/* line 841, ../sass/styles_main.scss */
+/* line 843, ../sass/styles_main.scss */
 .fon_back_block4 {
   display: inline-block;
   position: relative;
@@ -881,7 +883,7 @@ a:hover {
   -moz-border-radius: 5px 5px 5px 5px;
   -khtml-border-radius: 5px 5px 5px 5px;
 }
-/* line 855, ../sass/styles_main.scss */
+/* line 857, ../sass/styles_main.scss */
 .fon_back_block4 .fon_midlle_block4 {
   display: inline-block;
   position: relative;
@@ -903,7 +905,7 @@ a:hover {
   font-family: 'georgiaregular';
   font-weight: 400;
 }
-/* line 879, ../sass/styles_main.scss */
+/* line 881, ../sass/styles_main.scss */
 .fon_back_block4 .fon_midlle_block4 .main_about_head {
   display: inline-block;
   position: relative;
@@ -911,17 +913,17 @@ a:hover {
   font-size: 37pt;
   color: #6a4d1e;
 }
-/* line 885, ../sass/styles_main.scss */
+/* line 887, ../sass/styles_main.scss */
 .fon_back_block4 .fon_midlle_block4 .main_about_head span {
   color: #31870b;
 }
-/* line 889, ../sass/styles_main.scss */
+/* line 891, ../sass/styles_main.scss */
 .fon_back_block4 .fon_midlle_block4 .foto {
   display: block;
   position: relative;
   text-align: justify;
 }
-/* line 893, ../sass/styles_main.scss */
+/* line 895, ../sass/styles_main.scss */
 .fon_back_block4 .fon_midlle_block4 .foto .to_inner {
   display: inline-block;
   position: absolute;
@@ -932,11 +934,11 @@ a:hover {
   color: #6a4d1e;
   text-decoration: underline;
 }
-/* line 903, ../sass/styles_main.scss */
+/* line 905, ../sass/styles_main.scss */
 .fon_back_block4 .fon_midlle_block4 .foto .to_inner:hover {
   text-decoration: none;
 }
-/* line 906, ../sass/styles_main.scss */
+/* line 908, ../sass/styles_main.scss */
 .fon_back_block4 .fon_midlle_block4 .foto ul {
   display: block;
   position: relative;
@@ -949,20 +951,20 @@ a:hover {
   font-size: 0;
   margin-left: 17px;
 }
-/* line 917, ../sass/styles_main.scss */
+/* line 919, ../sass/styles_main.scss */
 .fon_back_block4 .fon_midlle_block4 .foto ul li {
   display: inline-block;
   position: relative;
   margin: 0;
   text-align: center;
 }
-/* line 922, ../sass/styles_main.scss */
+/* line 924, ../sass/styles_main.scss */
 .fon_back_block4 .fon_midlle_block4 .foto ul li img {
   height: 161px;
   width: 252px;
   margin: 0;
 }
-/* line 930, ../sass/styles_main.scss */
+/* line 932, ../sass/styles_main.scss */
 .fon_back_block4 .fon_midlle_block4 .foto .foto_ArrowLeft {
   display: block;
   position: absolute;
@@ -974,7 +976,7 @@ a:hover {
   z-index: 10;
   cursor: pointer;
 }
-/* line 941, ../sass/styles_main.scss */
+/* line 943, ../sass/styles_main.scss */
 .fon_back_block4 .fon_midlle_block4 .foto .foto_ArrowRight {
   display: block;
   position: absolute;
@@ -986,7 +988,7 @@ a:hover {
   z-index: 10;
   cursor: pointer;
 }
-/* line 955, ../sass/styles_main.scss */
+/* line 957, ../sass/styles_main.scss */
 .fon_back_block4 .fon_midlle_block4 .frends {
   display: block;
   position: relative;
@@ -994,47 +996,47 @@ a:hover {
   background: url(../img/separ_main.png) repeat-x;
   padding-top: 10px;
 }
-/* line 961, ../sass/styles_main.scss */
+/* line 963, ../sass/styles_main.scss */
 .fon_back_block4 .fon_midlle_block4 .frends ul {
   display: block;
   position: relative;
   margin-top: 20px;
   text-align: center;
 }
-/* line 966, ../sass/styles_main.scss */
+/* line 968, ../sass/styles_main.scss */
 .fon_back_block4 .fon_midlle_block4 .frends ul li {
   display: inline-block;
   position: relative;
   margin-right: 30px;
 }
-/* line 970, ../sass/styles_main.scss */
+/* line 972, ../sass/styles_main.scss */
 .fon_back_block4 .fon_midlle_block4 .frends ul li img {
   height: 90px;
 }
-/* line 974, ../sass/styles_main.scss */
+/* line 976, ../sass/styles_main.scss */
 .fon_back_block4 .fon_midlle_block4 .frends ul li:last-child {
   margin: 0px;
 }
-/* line 976, ../sass/styles_main.scss */
+/* line 978, ../sass/styles_main.scss */
 .fon_back_block4 .fon_midlle_block4 .frends ul li:last-child img {
   margin: 2px;
 }
 
-/* line 987, ../sass/styles_main.scss */
+/* line 989, ../sass/styles_main.scss */
 .footer {
   display: inline-block;
   position: relative;
   text-align: center;
   margin-top: 0px;
 }
-/* line 994, ../sass/styles_main.scss */
+/* line 996, ../sass/styles_main.scss */
 .footer .footer_center {
   display: inline-block;
   position: relative;
   width: 887px;
   text-align: left;
 }
-/* line 999, ../sass/styles_main.scss */
+/* line 1001, ../sass/styles_main.scss */
 .footer .footer_center .copyrite {
   display: inline-block;
   position: relative;
@@ -1043,7 +1045,7 @@ a:hover {
   font-family: 'georgiaregular';
   font-size: 11pt;
 }
-/* line 1007, ../sass/styles_main.scss */
+/* line 1009, ../sass/styles_main.scss */
 .footer .footer_center .footer_menu1 {
   display: inline-block;
   position: relative;
@@ -1052,11 +1054,11 @@ a:hover {
   font-family: 'georgiaregular';
   font-size: 11pt;
 }
-/* line 1014, ../sass/styles_main.scss */
+/* line 1016, ../sass/styles_main.scss */
 .footer .footer_center .footer_menu1 a {
   color: #6a4d1e;
 }
-/* line 1018, ../sass/styles_main.scss */
+/* line 1020, ../sass/styles_main.scss */
 .footer .footer_center .footer_menu2 {
   display: inline-block;
   position: relative;
@@ -1065,11 +1067,11 @@ a:hover {
   font-family: 'georgiaregular';
   font-size: 11pt;
 }
-/* line 1025, ../sass/styles_main.scss */
+/* line 1027, ../sass/styles_main.scss */
 .footer .footer_center .footer_menu2 a {
   color: #6a4d1e;
 }
-/* line 1029, ../sass/styles_main.scss */
+/* line 1031, ../sass/styles_main.scss */
 .footer .footer_center .made_in {
   float: right;
   margin-top: 40px;
@@ -1078,7 +1080,7 @@ a:hover {
   color: #6a4d1e;
   text-align: right;
 }
-/* line 1036, ../sass/styles_main.scss */
+/* line 1038, ../sass/styles_main.scss */
 .footer .footer_center .made_in a {
   color: #6a4d1e;
 }

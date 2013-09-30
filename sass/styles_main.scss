@@ -90,13 +90,14 @@ $color_brown: #6a4d1e;
 
 body{
 	display: block;
-	
+	max-width: 1600px;
 	font-size: 0pt;
 	text-align: center;
-	margin: 0px 0px 0px 0px;
+	margin: 0 auto;
 	background: url(../img/fon_article.jpg) 50% 0% no-repeat;
 	background-color: #f1e7d5;
 	font-family: arial;
+	
 }
 
 ul  { 
@@ -127,7 +128,8 @@ a:hover{
 	display: block;
 	position: absolute;
 	background: url(../img/fon_header.png) repeat-x;
-	width: 100%;
+	max-width: 1600px;
+	margin: 0 auto;
 	height: 249px;
 	text-align: center;
 	.header_center{
