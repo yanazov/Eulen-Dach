@@ -70,11 +70,11 @@
 /* line 91, ../sass/styles_main.scss */
 body {
   display: block;
-  max-width: 1600px;
+  /*max-width: 1600px;*/
   font-size: 0pt;
   text-align: center;
   margin: 0 auto;
-  background: url(../img/fon_article.jpg) 50% 0% no-repeat;
+  /*background: url(../img/fon_article.jpg) 50% 0% no-repeat;*/
   background-color: #f1e7d5;
   font-family: arial;
 }
@@ -104,8 +104,20 @@ a:hover {
   font-weight: 900;
 }
 
-/* line 127, ../sass/styles_main.scss */
-.header {
+/* line 126, ../sass/styles_main.scss */
+.center_all {
+  display: inline-block;
+  position: relative;
+  width: 100%;
+  max-width: 1600px;
+  /* ============================================== BEGIN BLOCK 2 =================================== */
+  /* ============================================== END BLOCK 2 =================================== */
+  /* ============================================== BEGIN BLOCK 3 =================================== */
+  /* ============================================== END BLOCK 3 =================================== */
+  /* ============================================== BEGIN BLOCK 4 =================================== */
+}
+/* line 132, ../sass/styles_main.scss */
+.center_all .header {
   display: block;
   position: absolute;
   background: url(../img/fon_header.png) repeat-x;
@@ -114,35 +126,35 @@ a:hover {
   height: 249px;
   text-align: center;
 }
-/* line 135, ../sass/styles_main.scss */
-.header .header_center {
+/* line 140, ../sass/styles_main.scss */
+.center_all .header .header_center {
   display: inline-block;
   position: relative;
   width: 887px;
   text-align: left;
 }
-/* line 140, ../sass/styles_main.scss */
-.header .header_center a {
+/* line 145, ../sass/styles_main.scss */
+.center_all .header .header_center a {
   text-decoration: none;
 }
-/* line 143, ../sass/styles_main.scss */
-.header .header_center .logo {
+/* line 148, ../sass/styles_main.scss */
+.center_all .header .header_center .logo {
   float: left;
   background: url(../img/logo.png) repeat-x;
   width: 48px;
   height: 103px;
   margin-top: 20px;
 }
-/* line 150, ../sass/styles_main.scss */
-.header .header_center .logo_txt {
+/* line 155, ../sass/styles_main.scss */
+.center_all .header .header_center .logo_txt {
   float: left;
   margin-top: 17px;
   color: #fff;
   font-family: 'disneyparkregular';
   font-size: 40pt;
 }
-/* line 157, ../sass/styles_main.scss */
-.header .header_center .logo_txt .logo_txt_small {
+/* line 162, ../sass/styles_main.scss */
+.center_all .header .header_center .logo_txt .logo_txt_small {
   display: block;
   position: relative;
   top: -7px;
@@ -150,16 +162,16 @@ a:hover {
   font-size: 9pt;
   font-family: 'Conv_Dynar-Medium';
 }
-/* line 166, ../sass/styles_main.scss */
-.header .header_center .personal {
+/* line 171, ../sass/styles_main.scss */
+.center_all .header .header_center .personal {
   float: right;
   margin-top: 30px;
   color: #fff;
   font-family: 'disneyparkregular';
   font-size: 30pt;
 }
-/* line 173, ../sass/styles_main.scss */
-.header .header_center .personal .logo_txt_small {
+/* line 178, ../sass/styles_main.scss */
+.center_all .header .header_center .personal .logo_txt_small {
   display: block;
   position: relative;
   top: -4px;
@@ -167,16 +179,16 @@ a:hover {
   font-size: 9pt;
   font-family: 'Conv_Dynar-Medium';
 }
-/* line 182, ../sass/styles_main.scss */
-.header .header_center ul {
+/* line 187, ../sass/styles_main.scss */
+.center_all .header .header_center ul {
   display: inline-block;
   position: relative;
   top: 10px;
   width: 800px;
   text-align: left;
 }
-/* line 188, ../sass/styles_main.scss */
-.header .header_center ul li {
+/* line 193, ../sass/styles_main.scss */
+.center_all .header .header_center ul li {
   display: inline-block;
   position: relative;
   margin-left: 19px;
@@ -185,18 +197,18 @@ a:hover {
   font-family: 'Conv_Dynar-Medium';
   background: url(../img/header_separ.png) no-repeat;
 }
-/* line 197, ../sass/styles_main.scss */
-.header .header_center ul li a {
+/* line 202, ../sass/styles_main.scss */
+.center_all .header .header_center ul li a {
   color: #fff;
   text-decoration: none;
 }
-/* line 202, ../sass/styles_main.scss */
-.header .header_center ul li:first-child {
+/* line 207, ../sass/styles_main.scss */
+.center_all .header .header_center ul li:first-child {
   margin-left: 3px;
   background: none;
 }
-/* line 207, ../sass/styles_main.scss */
-.header .header_center .menu_events {
+/* line 212, ../sass/styles_main.scss */
+.center_all .header .header_center .menu_events {
   display: none;
   position: absolute;
   top: 128px;
@@ -211,8 +223,8 @@ a:hover {
   -khtml-border-radius: 5px 5px 5px 5px;
   z-index: 100;
 }
-/* line 223, ../sass/styles_main.scss */
-.header .header_center .menu_events ul {
+/* line 228, ../sass/styles_main.scss */
+.center_all .header .header_center .menu_events ul {
   display: block;
   position: relative;
   top: 0px;
@@ -227,8 +239,8 @@ a:hover {
   -moz-border-radius: 5px 5px 5px 5px;
   -khtml-border-radius: 5px 5px 5px 5px;
 }
-/* line 238, ../sass/styles_main.scss */
-.header .header_center .menu_events ul li {
+/* line 243, ../sass/styles_main.scss */
+.center_all .header .header_center .menu_events ul li {
   display: block;
   position: relative;
   width: 110px;
@@ -237,30 +249,29 @@ a:hover {
   border-bottom: 1px dashed #95805f;
   padding-bottom: 10px;
 }
-/* line 246, ../sass/styles_main.scss */
-.header .header_center .menu_events ul li a {
+/* line 251, ../sass/styles_main.scss */
+.center_all .header .header_center .menu_events ul li a {
   color: #95805f;
 }
-/* line 249, ../sass/styles_main.scss */
-.header .header_center .menu_events ul li a:hover {
+/* line 254, ../sass/styles_main.scss */
+.center_all .header .header_center .menu_events ul li a:hover {
   color: #6b5c45;
 }
-/* line 254, ../sass/styles_main.scss */
-.header .header_center .menu_events ul li:last-child {
+/* line 259, ../sass/styles_main.scss */
+.center_all .header .header_center .menu_events ul li:last-child {
   border: none;
 }
-/* line 257, ../sass/styles_main.scss */
-.header .header_center .menu_events ul li:first-child {
+/* line 262, ../sass/styles_main.scss */
+.center_all .header .header_center .menu_events ul li:first-child {
   margin-top: 20px;
 }
-
-/* line 267, ../sass/styles_main.scss */
-.fon_back1 {
+/* line 272, ../sass/styles_main.scss */
+.center_all .fon_back1 {
   display: inline-block;
   position: relative;
   text-align: center;
   width: 887px;
-  margin-top: 850px;
+  margin-top: 750px;
   height: 800px;
   background: url(../img/fon_article_back.png);
   /*top: 700px; */
@@ -269,8 +280,8 @@ a:hover {
   -moz-border-radius: 5px 5px 5px 5px;
   -khtml-border-radius: 5px 5px 5px 5px;
 }
-/* line 282, ../sass/styles_main.scss */
-.fon_back1 .fon_midlle1 {
+/* line 287, ../sass/styles_main.scss */
+.center_all .fon_back1 .fon_midlle1 {
   display: inline-block;
   position: relative;
   text-align: left;
@@ -299,45 +310,45 @@ a:hover {
   font-weight: 400;
   /* ///////////////////////////////////////////////////////////////////////////////////*/
 }
-/* line 301, ../sass/styles_main.scss */
-.fon_back1 .fon_midlle1 .mouse {
+/* line 306, ../sass/styles_main.scss */
+.center_all .fon_back1 .fon_midlle1 .mouse {
   display: block;
   position: absolute;
-  top: -150px;
+  top: -170px;
   left: 410px;
   background: url(../img/mouse.png);
   width: 45px;
   height: 112px;
 }
-/* line 310, ../sass/styles_main.scss */
-.fon_back1 .fon_midlle1 .navigation {
+/* line 315, ../sass/styles_main.scss */
+.center_all .fon_back1 .fon_midlle1 .navigation {
   display: block;
   font-family: 'georgiaitalic';
   font-size: 11pt;
   color: #9c8359;
   margin-bottom: 18px;
 }
-/* line 316, ../sass/styles_main.scss */
-.fon_back1 .fon_midlle1 .navigation a {
+/* line 321, ../sass/styles_main.scss */
+.center_all .fon_back1 .fon_midlle1 .navigation a {
   color: #9c8359;
   text-decoration: none;
 }
-/* line 333, ../sass/styles_main.scss */
-.fon_back1 .fon_midlle1 .next_text {
+/* line 338, ../sass/styles_main.scss */
+.center_all .fon_back1 .fon_midlle1 .next_text {
   display: inline-block;
   position: relative;
   height: 130px;
 }
-/* line 338, ../sass/styles_main.scss */
-.fon_back1 .fon_midlle1 .about_img {
+/* line 343, ../sass/styles_main.scss */
+.center_all .fon_back1 .fon_midlle1 .about_img {
   display: inline-block;
   position: relative;
   float: left;
   margin: 0px 25px 5px 0px;
   height: 289px;
 }
-/* line 347, ../sass/styles_main.scss */
-.fon_back1 .fon_midlle1 .record {
+/* line 352, ../sass/styles_main.scss */
+.center_all .fon_back1 .fon_midlle1 .record {
   display: inline-block;
   position: relative;
   margin-top: 15px;
@@ -354,38 +365,38 @@ a:hover {
   line-height: 25px;
   cursor: pointer;
 }
-/* line 364, ../sass/styles_main.scss */
-.fon_back1 .fon_midlle1 .record:hover {
+/* line 369, ../sass/styles_main.scss */
+.center_all .fon_back1 .fon_midlle1 .record:hover {
   color: #825f25;
 }
-/* line 368, ../sass/styles_main.scss */
-.fon_back1 .fon_midlle1 .main_about_head {
+/* line 373, ../sass/styles_main.scss */
+.center_all .fon_back1 .fon_midlle1 .main_about_head {
   display: inline-block;
   position: relative;
   font-family: 'disneyparkregular';
   font-size: 37pt;
   color: #6a4d1e;
 }
-/* line 374, ../sass/styles_main.scss */
-.fon_back1 .fon_midlle1 .main_about_head span {
+/* line 379, ../sass/styles_main.scss */
+.center_all .fon_back1 .fon_midlle1 .main_about_head span {
   color: #31870b;
 }
-/* line 378, ../sass/styles_main.scss */
-.fon_back1 .fon_midlle1 .main_about_left {
+/* line 383, ../sass/styles_main.scss */
+.center_all .fon_back1 .fon_midlle1 .main_about_left {
   display: inline-block;
   position: relative;
   width: 49%;
 }
-/* line 383, ../sass/styles_main.scss */
-.fon_back1 .fon_midlle1 .main_about_right {
+/* line 388, ../sass/styles_main.scss */
+.center_all .fon_back1 .fon_midlle1 .main_about_right {
   display: inline-block;
   position: absolute;
   right: 3px;
   top: 63px;
   width: 49%;
 }
-/* line 389, ../sass/styles_main.scss */
-.fon_back1 .fon_midlle1 .main_about_right .record {
+/* line 394, ../sass/styles_main.scss */
+.center_all .fon_back1 .fon_midlle1 .main_about_right .record {
   display: block;
   position: relative;
   margin-top: 15px;
@@ -403,12 +414,12 @@ a:hover {
   cursor: pointer;
   text-decoration: none;
 }
-/* line 407, ../sass/styles_main.scss */
-.fon_back1 .fon_midlle1 .main_about_right .record:hover {
+/* line 412, ../sass/styles_main.scss */
+.center_all .fon_back1 .fon_midlle1 .main_about_right .record:hover {
   color: #825f25;
 }
-/* line 411, ../sass/styles_main.scss */
-.fon_back1 .fon_midlle1 .img_1 {
+/* line 416, ../sass/styles_main.scss */
+.center_all .fon_back1 .fon_midlle1 .img_1 {
   margin-top: 20px;
   display: inline-block;
   position: relative;
@@ -417,8 +428,8 @@ a:hover {
   height: 167px;
   background: url(../img/pic2.jpg) no-repeat;
 }
-/* line 420, ../sass/styles_main.scss */
-.fon_back1 .fon_midlle1 .events {
+/* line 425, ../sass/styles_main.scss */
+.center_all .fon_back1 .fon_midlle1 .events {
   display: inline-block;
   position: relative;
   margin-top: 20px;
@@ -426,8 +437,8 @@ a:hover {
   text-align: justify;
   width: 100%;
 }
-/* line 427, ../sass/styles_main.scss */
-.fon_back1 .fon_midlle1 .events .to_inner {
+/* line 432, ../sass/styles_main.scss */
+.center_all .fon_back1 .fon_midlle1 .events .to_inner {
   display: block;
   position: absolute;
   top: 32px;
@@ -437,18 +448,18 @@ a:hover {
   color: #6a4d1e;
   text-decoration: underline;
 }
-/* line 437, ../sass/styles_main.scss */
-.fon_back1 .fon_midlle1 .events .to_inner:hover {
+/* line 442, ../sass/styles_main.scss */
+.center_all .fon_back1 .fon_midlle1 .events .to_inner:hover {
   text-decoration: none;
 }
-/* line 440, ../sass/styles_main.scss */
-.fon_back1 .fon_midlle1 .events ul {
+/* line 445, ../sass/styles_main.scss */
+.center_all .fon_back1 .fon_midlle1 .events ul {
   display: inline-block;
   position: relative;
   width: 100%;
 }
-/* line 446, ../sass/styles_main.scss */
-.fon_back1 .fon_midlle1 .events li {
+/* line 451, ../sass/styles_main.scss */
+.center_all .fon_back1 .fon_midlle1 .events li {
   display: inline-block;
   position: relative;
   width: 240px;
@@ -456,51 +467,49 @@ a:hover {
   /* 17  */
   text-align: left;
 }
-/* line 452, ../sass/styles_main.scss */
-.fon_back1 .fon_midlle1 .events li a {
+/* line 457, ../sass/styles_main.scss */
+.center_all .fon_back1 .fon_midlle1 .events li a {
   display: inline-block;
   position: relative;
   color: #6a4d1e;
   font-family: 'georgiaitalic';
   font-size: 12pt;
 }
-/* line 459, ../sass/styles_main.scss */
-.fon_back1 .fon_midlle1 .events li img {
+/* line 464, ../sass/styles_main.scss */
+.center_all .fon_back1 .fon_midlle1 .events li img {
   display: inline-block;
   position: relative;
   margin: 15px 0px 5px 0px;
   height: 128px;
 }
-/* line 466, ../sass/styles_main.scss */
-.fon_back1 .fon_midlle1 .events li:first-child {
+/* line 471, ../sass/styles_main.scss */
+.center_all .fon_back1 .fon_midlle1 .events li:first-child {
   display: inline-block;
   position: relative;
   margin-left: 0px;
 }
-/* line 472, ../sass/styles_main.scss */
-.fon_back1 .fon_midlle1 .events li:last-child {
+/* line 477, ../sass/styles_main.scss */
+.center_all .fon_back1 .fon_midlle1 .events li:last-child {
   display: inline-block;
   position: relative;
   width: 240px;
 }
-/* line 476, ../sass/styles_main.scss */
-.fon_back1 .fon_midlle1 .events li:last-child a {
+/* line 481, ../sass/styles_main.scss */
+.center_all .fon_back1 .fon_midlle1 .events li:last-child a {
   display: inline-block;
   position: relative;
   color: #6a4d1e;
   font-family: 'georgiaitalic';
   font-size: 12pt;
 }
-/* line 483, ../sass/styles_main.scss */
-.fon_back1 .fon_midlle1 .events li:last-child img {
+/* line 488, ../sass/styles_main.scss */
+.center_all .fon_back1 .fon_midlle1 .events li:last-child img {
   ddisplay: inline-block;
   position: relative;
   margin: 15px 0px 5px 0px;
 }
-
-/* ============================================== BEGIN BLOCK 2 =================================== */
-/* line 493, ../sass/styles_main.scss */
-.fon_back_block2 {
+/* line 498, ../sass/styles_main.scss */
+.center_all .fon_back_block2 {
   display: inline-block;
   position: relative;
   text-align: center;
@@ -513,8 +522,8 @@ a:hover {
   -moz-border-radius: 5px 5px 5px 5px;
   -khtml-border-radius: 5px 5px 5px 5px;
 }
-/* line 507, ../sass/styles_main.scss */
-.fon_back_block2 .fon_midlle_block2 {
+/* line 512, ../sass/styles_main.scss */
+.center_all .fon_back_block2 .fon_midlle_block2 {
   display: inline-block;
   position: relative;
   text-align: left;
@@ -535,27 +544,27 @@ a:hover {
   font-family: 'georgiaregular';
   font-weight: 400;
 }
-/* line 531, ../sass/styles_main.scss */
-.fon_back_block2 .fon_midlle_block2 .main_about_head {
+/* line 536, ../sass/styles_main.scss */
+.center_all .fon_back_block2 .fon_midlle_block2 .main_about_head {
   display: inline-block;
   position: relative;
   font-family: 'disneyparkregular';
   font-size: 37pt;
   color: #6a4d1e;
 }
-/* line 537, ../sass/styles_main.scss */
-.fon_back_block2 .fon_midlle_block2 .main_about_head span {
+/* line 542, ../sass/styles_main.scss */
+.center_all .fon_back_block2 .fon_midlle_block2 .main_about_head span {
   color: #31870b;
 }
-/* line 542, ../sass/styles_main.scss */
-.fon_back_block2 .fon_midlle_block2 .group {
+/* line 547, ../sass/styles_main.scss */
+.center_all .fon_back_block2 .fon_midlle_block2 .group {
   display: block;
   position: relative;
   margin-top: 20px;
   text-align: justify;
 }
-/* line 547, ../sass/styles_main.scss */
-.fon_back_block2 .fon_midlle_block2 .group .to_inner {
+/* line 552, ../sass/styles_main.scss */
+.center_all .fon_back_block2 .fon_midlle_block2 .group .to_inner {
   display: inline-block;
   position: absolute;
   top: 32px;
@@ -565,12 +574,12 @@ a:hover {
   color: #6a4d1e;
   text-decoration: underline;
 }
-/* line 557, ../sass/styles_main.scss */
-.fon_back_block2 .fon_midlle_block2 .group .to_inner:hover {
+/* line 562, ../sass/styles_main.scss */
+.center_all .fon_back_block2 .fon_midlle_block2 .group .to_inner:hover {
   text-decoration: none;
 }
-/* line 560, ../sass/styles_main.scss */
-.fon_back_block2 .fon_midlle_block2 .group .group_ul {
+/* line 565, ../sass/styles_main.scss */
+.center_all .fon_back_block2 .fon_midlle_block2 .group .group_ul {
   display: block;
   position: relative;
   height: 184px;
@@ -579,8 +588,8 @@ a:hover {
   overflow: hidden;
   margin-left: 25px;
 }
-/* line 568, ../sass/styles_main.scss */
-.fon_back_block2 .fon_midlle_block2 .group .group_ul .raspisanie {
+/* line 573, ../sass/styles_main.scss */
+.center_all .fon_back_block2 .fon_midlle_block2 .group .group_ul .raspisanie {
   display: inline-block;
   position: relative;
   width: 250px;
@@ -588,18 +597,18 @@ a:hover {
   background: url(../img/fon_group.png) no-repeat;
   color: #6a4d1e;
 }
-/* line 577, ../sass/styles_main.scss */
-.fon_back_block2 .fon_midlle_block2 .group .group_ul .li {
-  display: inline-block;
-  position: relative;
-}
 /* line 582, ../sass/styles_main.scss */
-.fon_back_block2 .fon_midlle_block2 .group .group_ul .group_li1 {
+.center_all .fon_back_block2 .fon_midlle_block2 .group .group_ul .li {
   display: inline-block;
   position: relative;
 }
-/* line 586, ../sass/styles_main.scss */
-.fon_back_block2 .fon_midlle_block2 .group .group_ul .group_li2 {
+/* line 587, ../sass/styles_main.scss */
+.center_all .fon_back_block2 .fon_midlle_block2 .group .group_ul .group_li1 {
+  display: inline-block;
+  position: relative;
+}
+/* line 591, ../sass/styles_main.scss */
+.center_all .fon_back_block2 .fon_midlle_block2 .group .group_ul .group_li2 {
   display: inline-block;
   position: relative;
   margin-top: 13px;
@@ -610,8 +619,8 @@ a:hover {
   font-size: 10pt;
   width: 210px;
 }
-/* line 597, ../sass/styles_main.scss */
-.fon_back_block2 .fon_midlle_block2 .group .group_ul .group_li2:first-child {
+/* line 602, ../sass/styles_main.scss */
+.center_all .fon_back_block2 .fon_midlle_block2 .group .group_ul .group_li2:first-child {
   margin-top: 10px;
   margin-left: 20px;
   text-align: center;
@@ -621,12 +630,12 @@ a:hover {
   font-family: 'georgiaitalic';
   font-size: 12pt;
 }
-/* line 607, ../sass/styles_main.scss */
-.fon_back_block2 .fon_midlle_block2 .group .group_ul .group_li2:last-child {
+/* line 612, ../sass/styles_main.scss */
+.center_all .fon_back_block2 .fon_midlle_block2 .group .group_ul .group_li2:last-child {
   border: none;
 }
-/* line 611, ../sass/styles_main.scss */
-.fon_back_block2 .fon_midlle_block2 .group .group_ArrowLeft {
+/* line 616, ../sass/styles_main.scss */
+.center_all .fon_back_block2 .fon_midlle_block2 .group .group_ArrowLeft {
   display: block;
   position: absolute;
   top: 150px;
@@ -637,8 +646,8 @@ a:hover {
   z-index: 10;
   cursor: pointer;
 }
-/* line 622, ../sass/styles_main.scss */
-.fon_back_block2 .fon_midlle_block2 .group .group_ArrowRight {
+/* line 627, ../sass/styles_main.scss */
+.center_all .fon_back_block2 .fon_midlle_block2 .group .group_ArrowRight {
   display: block;
   position: absolute;
   top: 150px;
@@ -649,15 +658,15 @@ a:hover {
   z-index: 10;
   cursor: pointer;
 }
-/* line 634, ../sass/styles_main.scss */
-.fon_back_block2 .fon_midlle_block2 .price {
+/* line 639, ../sass/styles_main.scss */
+.center_all .fon_back_block2 .fon_midlle_block2 .price {
   display: block;
   position: relative;
   margin-top: 20px;
   text-align: justify;
 }
-/* line 639, ../sass/styles_main.scss */
-.fon_back_block2 .fon_midlle_block2 .price .price_owl {
+/* line 644, ../sass/styles_main.scss */
+.center_all .fon_back_block2 .fon_midlle_block2 .price .price_owl {
   display: block;
   position: absolute;
   top: 130px;
@@ -667,8 +676,8 @@ a:hover {
   background: url(../img/owl.png) no-repeat;
   z-index: 10;
 }
-/* line 649, ../sass/styles_main.scss */
-.fon_back_block2 .fon_midlle_block2 .price .to_inner {
+/* line 654, ../sass/styles_main.scss */
+.center_all .fon_back_block2 .fon_midlle_block2 .price .to_inner {
   display: inline-block;
   position: absolute;
   top: 32px;
@@ -678,12 +687,12 @@ a:hover {
   color: #6a4d1e;
   text-decoration: underline;
 }
-/* line 659, ../sass/styles_main.scss */
-.fon_back_block2 .fon_midlle_block2 .price .to_inner:hover {
+/* line 664, ../sass/styles_main.scss */
+.center_all .fon_back_block2 .fon_midlle_block2 .price .to_inner:hover {
   text-decoration: none;
 }
-/* line 662, ../sass/styles_main.scss */
-.fon_back_block2 .fon_midlle_block2 .price .fon_table {
+/* line 667, ../sass/styles_main.scss */
+.center_all .fon_back_block2 .fon_midlle_block2 .price .fon_table {
   display: block;
   position: relative;
   margin-top: 10px;
@@ -693,16 +702,16 @@ a:hover {
   height: 398px;
   z-index: 20;
 }
-/* line 671, ../sass/styles_main.scss */
-.fon_back_block2 .fon_midlle_block2 .price .fon_table .price_ul {
+/* line 676, ../sass/styles_main.scss */
+.center_all .fon_back_block2 .fon_midlle_block2 .price .fon_table .price_ul {
   display: block;
   position: relative;
   margin: 0px 0px 0px 5px;
   width: 792px;
   border: 1px solid #d6b98b;
 }
-/* line 677, ../sass/styles_main.scss */
-.fon_back_block2 .fon_midlle_block2 .price .fon_table .price_ul li {
+/* line 682, ../sass/styles_main.scss */
+.center_all .fon_back_block2 .fon_midlle_block2 .price .fon_table .price_ul li {
   display: inline-block;
   position: relative;
   font-family: 'georgiaitalic';
@@ -713,17 +722,17 @@ a:hover {
   margin-left: 16px;
   padding: 9px 0px 9px 0px;
 }
-/* line 688, ../sass/styles_main.scss */
-.fon_back_block2 .fon_midlle_block2 .price .fon_table .price_ul li:first-child {
+/* line 693, ../sass/styles_main.scss */
+.center_all .fon_back_block2 .fon_midlle_block2 .price .fon_table .price_ul li:first-child {
   margin-left: 20px;
 }
-/* line 691, ../sass/styles_main.scss */
-.fon_back_block2 .fon_midlle_block2 .price .fon_table .price_ul li:last-child {
+/* line 696, ../sass/styles_main.scss */
+.center_all .fon_back_block2 .fon_midlle_block2 .price .fon_table .price_ul li:last-child {
   width: 145px;
   margin-left: 20px;
 }
-/* line 697, ../sass/styles_main.scss */
-.fon_back_block2 .fon_midlle_block2 .price .fon_table .price_content {
+/* line 702, ../sass/styles_main.scss */
+.center_all .fon_back_block2 .fon_midlle_block2 .price .fon_table .price_content {
   display: block;
   position: relative;
   margin: 0px;
@@ -732,8 +741,8 @@ a:hover {
   border: 1px solid #d6b98b;
   border-top: none;
 }
-/* line 707, ../sass/styles_main.scss */
-.fon_back_block2 .fon_midlle_block2 .price .fon_table .price_content .price_li .price_ul_dark li {
+/* line 712, ../sass/styles_main.scss */
+.center_all .fon_back_block2 .fon_midlle_block2 .price .fon_table .price_content .price_li .price_ul_dark li {
   display: inline-block;
   position: relative;
   font-family: 'georgiaregular';
@@ -744,21 +753,21 @@ a:hover {
   margin-left: 16px;
   padding: 9px 0px 9px 0px;
 }
-/* line 718, ../sass/styles_main.scss */
-.fon_back_block2 .fon_midlle_block2 .price .fon_table .price_content .price_li .price_ul_dark li:first-child {
+/* line 723, ../sass/styles_main.scss */
+.center_all .fon_back_block2 .fon_midlle_block2 .price .fon_table .price_content .price_li .price_ul_dark li:first-child {
   margin-left: 20px;
 }
-/* line 721, ../sass/styles_main.scss */
-.fon_back_block2 .fon_midlle_block2 .price .fon_table .price_content .price_li .price_ul_dark li:last-child {
+/* line 726, ../sass/styles_main.scss */
+.center_all .fon_back_block2 .fon_midlle_block2 .price .fon_table .price_content .price_li .price_ul_dark li:last-child {
   width: 145px;
 }
-/* line 725, ../sass/styles_main.scss */
-.fon_back_block2 .fon_midlle_block2 .price .fon_table .price_content .price_li .price_ul_light {
+/* line 730, ../sass/styles_main.scss */
+.center_all .fon_back_block2 .fon_midlle_block2 .price .fon_table .price_content .price_li .price_ul_light {
   background: url(../img/fon_light.png);
   /*background-color: #f38;*/
 }
-/* line 728, ../sass/styles_main.scss */
-.fon_back_block2 .fon_midlle_block2 .price .fon_table .price_content .price_li .price_ul_light li {
+/* line 733, ../sass/styles_main.scss */
+.center_all .fon_back_block2 .fon_midlle_block2 .price .fon_table .price_content .price_li .price_ul_light li {
   display: inline-block;
   position: relative;
   font-family: 'georgiaregular';
@@ -769,19 +778,16 @@ a:hover {
   margin-left: 16px;
   padding: 9px 0px 9px 0px;
 }
-/* line 739, ../sass/styles_main.scss */
-.fon_back_block2 .fon_midlle_block2 .price .fon_table .price_content .price_li .price_ul_light li:first-child {
+/* line 744, ../sass/styles_main.scss */
+.center_all .fon_back_block2 .fon_midlle_block2 .price .fon_table .price_content .price_li .price_ul_light li:first-child {
   margin-left: 20px;
 }
-/* line 742, ../sass/styles_main.scss */
-.fon_back_block2 .fon_midlle_block2 .price .fon_table .price_content .price_li .price_ul_light li:last-child {
+/* line 747, ../sass/styles_main.scss */
+.center_all .fon_back_block2 .fon_midlle_block2 .price .fon_table .price_content .price_li .price_ul_light li:last-child {
   width: 145px;
 }
-
-/* ============================================== END BLOCK 2 =================================== */
-/* ============================================== BEGIN BLOCK 3 =================================== */
-/* line 755, ../sass/styles_main.scss */
-.fon_back_block3 {
+/* line 760, ../sass/styles_main.scss */
+.center_all .fon_back_block3 {
   display: inline-block;
   position: relative;
   text-align: center;
@@ -794,8 +800,8 @@ a:hover {
   -moz-border-radius: 5px 5px 5px 5px;
   -khtml-border-radius: 5px 5px 5px 5px;
 }
-/* line 769, ../sass/styles_main.scss */
-.fon_back_block3 .fon_midlle_block3 {
+/* line 774, ../sass/styles_main.scss */
+.center_all .fon_back_block3 .fon_midlle_block3 {
   display: inline-block;
   position: relative;
   text-align: left;
@@ -816,34 +822,34 @@ a:hover {
   font-family: 'georgiaregular';
   font-weight: 400;
 }
-/* line 793, ../sass/styles_main.scss */
-.fon_back_block3 .fon_midlle_block3 .main_about_head {
+/* line 798, ../sass/styles_main.scss */
+.center_all .fon_back_block3 .fon_midlle_block3 .main_about_head {
   display: inline-block;
   position: relative;
   font-family: 'disneyparkregular';
   font-size: 37pt;
   color: #6a4d1e;
 }
-/* line 799, ../sass/styles_main.scss */
-.fon_back_block3 .fon_midlle_block3 .main_about_head span {
+/* line 804, ../sass/styles_main.scss */
+.center_all .fon_back_block3 .fon_midlle_block3 .main_about_head span {
   color: #31870b;
 }
-/* line 803, ../sass/styles_main.scss */
-.fon_back_block3 .fon_midlle_block3 .online {
+/* line 808, ../sass/styles_main.scss */
+.center_all .fon_back_block3 .fon_midlle_block3 .online {
   display: block;
   position: relative;
   margin-top: 5px;
   padding: 0px 260px 0px 150px;
 }
-/* line 808, ../sass/styles_main.scss */
-.fon_back_block3 .fon_midlle_block3 .online .online_txt {
+/* line 813, ../sass/styles_main.scss */
+.center_all .fon_back_block3 .fon_midlle_block3 .online .online_txt {
   display: block;
   position: relative;
   font-family: 'georgiaregular';
   font-size: 11pt;
 }
-/* line 814, ../sass/styles_main.scss */
-.fon_back_block3 .fon_midlle_block3 .online .open_book {
+/* line 819, ../sass/styles_main.scss */
+.center_all .fon_back_block3 .fon_midlle_block3 .online .open_book {
   display: block;
   position: absolute;
   left: -115px;
@@ -853,8 +859,8 @@ a:hover {
   background-size: contain;
   background: url(../img/open_book.png) no-repeat;
 }
-/* line 824, ../sass/styles_main.scss */
-.fon_back_block3 .fon_midlle_block3 .online .online_btn {
+/* line 829, ../sass/styles_main.scss */
+.center_all .fon_back_block3 .fon_midlle_block3 .online .online_btn {
   display: block;
   position: absolute;
   left: 560px;
@@ -872,15 +878,12 @@ a:hover {
   cursor: pointer;
   text-decoration: none;
 }
-/* line 842, ../sass/styles_main.scss */
-.fon_back_block3 .fon_midlle_block3 .online .online_btn:hover {
+/* line 847, ../sass/styles_main.scss */
+.center_all .fon_back_block3 .fon_midlle_block3 .online .online_btn:hover {
   color: #825f25;
 }
-
-/* ============================================== END BLOCK 3 =================================== */
-/* ============================================== BEGIN BLOCK 4 =================================== */
-/* line 851, ../sass/styles_main.scss */
-.fon_back_block4 {
+/* line 856, ../sass/styles_main.scss */
+.center_all .fon_back_block4 {
   display: inline-block;
   position: relative;
   text-align: center;
@@ -893,8 +896,8 @@ a:hover {
   -moz-border-radius: 5px 5px 5px 5px;
   -khtml-border-radius: 5px 5px 5px 5px;
 }
-/* line 865, ../sass/styles_main.scss */
-.fon_back_block4 .fon_midlle_block4 {
+/* line 870, ../sass/styles_main.scss */
+.center_all .fon_back_block4 .fon_midlle_block4 {
   display: inline-block;
   position: relative;
   text-align: left;
@@ -915,26 +918,26 @@ a:hover {
   font-family: 'georgiaregular';
   font-weight: 400;
 }
-/* line 889, ../sass/styles_main.scss */
-.fon_back_block4 .fon_midlle_block4 .main_about_head {
+/* line 894, ../sass/styles_main.scss */
+.center_all .fon_back_block4 .fon_midlle_block4 .main_about_head {
   display: inline-block;
   position: relative;
   font-family: 'disneyparkregular';
   font-size: 37pt;
   color: #6a4d1e;
 }
-/* line 895, ../sass/styles_main.scss */
-.fon_back_block4 .fon_midlle_block4 .main_about_head span {
+/* line 900, ../sass/styles_main.scss */
+.center_all .fon_back_block4 .fon_midlle_block4 .main_about_head span {
   color: #31870b;
 }
-/* line 899, ../sass/styles_main.scss */
-.fon_back_block4 .fon_midlle_block4 .foto {
+/* line 904, ../sass/styles_main.scss */
+.center_all .fon_back_block4 .fon_midlle_block4 .foto {
   display: block;
   position: relative;
   text-align: justify;
 }
-/* line 903, ../sass/styles_main.scss */
-.fon_back_block4 .fon_midlle_block4 .foto .to_inner {
+/* line 908, ../sass/styles_main.scss */
+.center_all .fon_back_block4 .fon_midlle_block4 .foto .to_inner {
   display: inline-block;
   position: absolute;
   top: 32px;
@@ -944,12 +947,12 @@ a:hover {
   color: #6a4d1e;
   text-decoration: underline;
 }
-/* line 913, ../sass/styles_main.scss */
-.fon_back_block4 .fon_midlle_block4 .foto .to_inner:hover {
+/* line 918, ../sass/styles_main.scss */
+.center_all .fon_back_block4 .fon_midlle_block4 .foto .to_inner:hover {
   text-decoration: none;
 }
-/* line 916, ../sass/styles_main.scss */
-.fon_back_block4 .fon_midlle_block4 .foto ul {
+/* line 921, ../sass/styles_main.scss */
+.center_all .fon_back_block4 .fon_midlle_block4 .foto ul {
   display: block;
   position: relative;
   margin-top: 7px;
@@ -961,21 +964,21 @@ a:hover {
   font-size: 0;
   margin-left: 17px;
 }
-/* line 927, ../sass/styles_main.scss */
-.fon_back_block4 .fon_midlle_block4 .foto ul li {
+/* line 932, ../sass/styles_main.scss */
+.center_all .fon_back_block4 .fon_midlle_block4 .foto ul li {
   display: inline-block;
   position: relative;
   margin: 0;
   text-align: center;
 }
-/* line 932, ../sass/styles_main.scss */
-.fon_back_block4 .fon_midlle_block4 .foto ul li img {
+/* line 937, ../sass/styles_main.scss */
+.center_all .fon_back_block4 .fon_midlle_block4 .foto ul li img {
   height: 161px;
   width: 252px;
   margin: 0;
 }
-/* line 940, ../sass/styles_main.scss */
-.fon_back_block4 .fon_midlle_block4 .foto .foto_ArrowLeft {
+/* line 945, ../sass/styles_main.scss */
+.center_all .fon_back_block4 .fon_midlle_block4 .foto .foto_ArrowLeft {
   display: block;
   position: absolute;
   top: 140px;
@@ -986,8 +989,8 @@ a:hover {
   z-index: 10;
   cursor: pointer;
 }
-/* line 951, ../sass/styles_main.scss */
-.fon_back_block4 .fon_midlle_block4 .foto .foto_ArrowRight {
+/* line 956, ../sass/styles_main.scss */
+.center_all .fon_back_block4 .fon_midlle_block4 .foto .foto_ArrowRight {
   display: block;
   position: absolute;
   top: 140px;
@@ -998,56 +1001,55 @@ a:hover {
   z-index: 10;
   cursor: pointer;
 }
-/* line 965, ../sass/styles_main.scss */
-.fon_back_block4 .fon_midlle_block4 .frends {
+/* line 970, ../sass/styles_main.scss */
+.center_all .fon_back_block4 .fon_midlle_block4 .frends {
   display: block;
   position: relative;
   margin-top: 40px;
   background: url(../img/separ_main.png) repeat-x;
   padding-top: 10px;
 }
-/* line 971, ../sass/styles_main.scss */
-.fon_back_block4 .fon_midlle_block4 .frends ul {
+/* line 976, ../sass/styles_main.scss */
+.center_all .fon_back_block4 .fon_midlle_block4 .frends ul {
   display: block;
   position: relative;
   margin-top: 20px;
   text-align: center;
 }
-/* line 976, ../sass/styles_main.scss */
-.fon_back_block4 .fon_midlle_block4 .frends ul li {
+/* line 981, ../sass/styles_main.scss */
+.center_all .fon_back_block4 .fon_midlle_block4 .frends ul li {
   display: inline-block;
   position: relative;
   margin-right: 30px;
 }
-/* line 980, ../sass/styles_main.scss */
-.fon_back_block4 .fon_midlle_block4 .frends ul li img {
+/* line 985, ../sass/styles_main.scss */
+.center_all .fon_back_block4 .fon_midlle_block4 .frends ul li img {
   height: 90px;
 }
-/* line 984, ../sass/styles_main.scss */
-.fon_back_block4 .fon_midlle_block4 .frends ul li:last-child {
+/* line 989, ../sass/styles_main.scss */
+.center_all .fon_back_block4 .fon_midlle_block4 .frends ul li:last-child {
   margin: 0px;
 }
-/* line 986, ../sass/styles_main.scss */
-.fon_back_block4 .fon_midlle_block4 .frends ul li:last-child img {
+/* line 991, ../sass/styles_main.scss */
+.center_all .fon_back_block4 .fon_midlle_block4 .frends ul li:last-child img {
   margin: 2px;
 }
-
-/* line 997, ../sass/styles_main.scss */
-.footer {
+/* line 1002, ../sass/styles_main.scss */
+.center_all .footer {
   display: inline-block;
   position: relative;
   text-align: center;
   margin-top: 0px;
 }
-/* line 1004, ../sass/styles_main.scss */
-.footer .footer_center {
+/* line 1009, ../sass/styles_main.scss */
+.center_all .footer .footer_center {
   display: inline-block;
   position: relative;
   width: 887px;
   text-align: left;
 }
-/* line 1009, ../sass/styles_main.scss */
-.footer .footer_center .copyrite {
+/* line 1014, ../sass/styles_main.scss */
+.center_all .footer .footer_center .copyrite {
   display: inline-block;
   position: relative;
   margin-top: 40px;
@@ -1055,8 +1057,8 @@ a:hover {
   font-family: 'georgiaregular';
   font-size: 11pt;
 }
-/* line 1017, ../sass/styles_main.scss */
-.footer .footer_center .footer_menu1 {
+/* line 1022, ../sass/styles_main.scss */
+.center_all .footer .footer_center .footer_menu1 {
   display: inline-block;
   position: relative;
   margin-top: 40px;
@@ -1064,12 +1066,12 @@ a:hover {
   font-family: 'georgiaregular';
   font-size: 11pt;
 }
-/* line 1024, ../sass/styles_main.scss */
-.footer .footer_center .footer_menu1 a {
+/* line 1029, ../sass/styles_main.scss */
+.center_all .footer .footer_center .footer_menu1 a {
   color: #6a4d1e;
 }
-/* line 1028, ../sass/styles_main.scss */
-.footer .footer_center .footer_menu2 {
+/* line 1033, ../sass/styles_main.scss */
+.center_all .footer .footer_center .footer_menu2 {
   display: inline-block;
   position: relative;
   margin-top: 40px;
@@ -1077,12 +1079,12 @@ a:hover {
   font-family: 'georgiaregular';
   font-size: 11pt;
 }
-/* line 1035, ../sass/styles_main.scss */
-.footer .footer_center .footer_menu2 a {
+/* line 1040, ../sass/styles_main.scss */
+.center_all .footer .footer_center .footer_menu2 a {
   color: #6a4d1e;
 }
-/* line 1039, ../sass/styles_main.scss */
-.footer .footer_center .made_in {
+/* line 1044, ../sass/styles_main.scss */
+.center_all .footer .footer_center .made_in {
   float: right;
   margin-top: 40px;
   font-family: 'georgiaregular';
@@ -1090,7 +1092,7 @@ a:hover {
   color: #6a4d1e;
   text-align: right;
 }
-/* line 1046, ../sass/styles_main.scss */
-.footer .footer_center .made_in a {
+/* line 1051, ../sass/styles_main.scss */
+.center_all .footer .footer_center .made_in a {
   color: #6a4d1e;
 }

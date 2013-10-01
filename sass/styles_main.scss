@@ -90,11 +90,11 @@ $color_brown: #6a4d1e;
 
 body{
 	display: block;
-	max-width: 1600px;
+	/*max-width: 1600px;*/
 	font-size: 0pt;
 	text-align: center;
 	margin: 0 auto;
-	background: url(../img/fon_article.jpg) 50% 0% no-repeat;
+	/*background: url(../img/fon_article.jpg) 50% 0% no-repeat;*/
 	background-color: #f1e7d5;
 	font-family: arial;
 	
@@ -123,6 +123,11 @@ a:hover{
 .bold_txt{
 	font-weight: 900;
 }
+.center_all{
+	display: inline-block;
+	position: relative;
+	width: 100%;
+	max-width: 1600px;
 
 .header{
 	display: block;
@@ -269,7 +274,7 @@ a:hover{
 	position: relative;
 	text-align: center;
 	width: 887px;	
-	margin-top: 850px;
+	margin-top: 750px;
 	height: 800px;
 	background: url(../img/fon_article_back.png);
 	/*top: 700px; */
@@ -301,7 +306,7 @@ a:hover{
 			.mouse{
 				display: block;
 				position: absolute;
-				top: -150px;
+				top: -170px;
 				left: 410px;
 				background: url(../img/mouse.png);
 				width: 45px;
@@ -1048,4 +1053,5 @@ a:hover{
 			}
 		}
 	}
+}
 }
