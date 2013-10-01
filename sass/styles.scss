@@ -328,6 +328,7 @@ a:hover{
 		border: 1px solid #b3b3b3;
 		color: #fff;
 		font-size: 40pt;
+		padding-bottom: 11px;
 		
 		border-radius: 5px 5px 5px 5px;
 		-webkit-border-radius: 5px 5px 5px 5px;
@@ -866,7 +867,7 @@ a:hover{
 					position: relative;
 					width: 49.5%;
 					height: 220px;
-					margin-bottom: 60px;
+					margin-bottom: 50px;
 					vertical-align: top;
 					font-family: 'georgiaregular';
 					color: #735d37;
@@ -911,8 +912,12 @@ a:hover{
 
 
 /*    =================================== END Literature ========================================   */								
-			.select_page{
+			.select_page{		
+				display: block;
+				position: relative;
 				text-align: center;
+				top: -20px;
+				margin: 0 auto;
 				li{
 					display: inline-block;
 					position: relative;
