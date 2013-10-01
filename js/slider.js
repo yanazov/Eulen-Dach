@@ -4,6 +4,7 @@ var foto_position = 0;
 var foto_position_tmp = 0;
 var first_click = 1;
 var close_menu_timer =0
+var input_value = "";
 
 /*    0   254   508  */
 function js_group_left(){
@@ -239,4 +240,16 @@ function js_foto_right(){
 		
 	}
 	slider_right_timet=setTimeout(function() {js_foto_right()}, 5);	
+}
+
+function js_overinput(t){
+	if(t.value == "Ваше имя"  || t.value == "Ваш номер телефона" || t.value == "Ваш E-Mail"){
+		input_value = t.value;
+		t.value = "";
+	}
+}
+
+function js_outinput(t){
+	if(t.value == "")
+		t.value = input_value;
 }

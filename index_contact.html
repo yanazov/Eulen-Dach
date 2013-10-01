@@ -3,6 +3,7 @@
 <head>	
 	<meta charset="utf-8">
 	<title>EulenDach</title>
+	<script type="text/javascript" src="js/slider.js"></script>
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
 	<script type="text/javascript" src="js/jScrollPane.js"></script>
@@ -69,10 +70,10 @@
 					<div class="contacts_map"></div>
 					<h1>Обратная связь</h1>
 					<form class="contacts_personal_info">
-						<input type="text" value="Ваше имя">
-						<input type="tel" value="Ваш номер телефона">
-						<input type="email" value="Ваш E-Mail">
-						<textarea class="access_order_coments_fill" value="Текст письма"></textarea>
+						<input type="text" class="text" value="Ваше имя" onfocus="this.value=''" onblur="this.value='Ваше имя'">
+						<input type="text" class="text" value="Ваш номер телефона" onfocus="this.value=''" onblur="this.value='Ваш номер телефона'">
+						<input type="text" class="text" value="Ваш E-Mail" onfocus="this.value=''" onblur="this.value='Ваш E-Mail'">
+						<textarea  onfocus="this.value=''" onblur="this.value='Текст письма'">Текст письма</textarea>
 					</form>
 					
 					
