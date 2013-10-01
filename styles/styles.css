@@ -325,7 +325,6 @@ h1 {
 .fon_back .fon_midlle .scroll-wrap .main_content .about_img {
   display: inline-block;
   position: relative;
-  float: left;
   margin: 0px 25px 5px 0px;
   height: 289px;
 }
