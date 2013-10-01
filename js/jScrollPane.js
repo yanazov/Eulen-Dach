@@ -64,7 +64,9 @@ jQuery.fn.jScrollPane = function(settings)
 				var currentScrollPosition = settings.maintainPosition ? $this.offset({relativeTo:jQuery(this).parent()[0]}).top : 0;
 				var $c = jQuery(this).parent();
 				var paneWidth = $c.innerWidth();
-				var paneHeight = $c.outerHeight();
+				/*var paneHeight = $c.outerHeight();
+				var trackHeight = paneHeight;   */
+				var paneHeight =  document.documentElement.clientHeight-400;
 				var trackHeight = paneHeight;
 				if ($c.unmousewheel) {
 					$c.unmousewheel();
@@ -76,7 +78,8 @@ jQuery.fn.jScrollPane = function(settings)
 				this.originalPadding = $this.css('paddingTop') + ' ' + $this.css('paddingRight') + ' ' + $this.css('paddingBottom') + ' ' + $this.css('paddingLeft');
 				this.originalSidePaddingTotal = (parseInt($this.css('paddingLeft')) || 0) + (parseInt($this.css('paddingRight')) || 0);
 				var paneWidth = $this.innerWidth();
-				var paneHeight = $this.innerHeight();
+				/*var paneHeight = $this.innerHeight();  */
+				var paneHeight =  document.documentElement.clientHeight-400; 
 				var trackHeight = paneHeight;
 				$this.wrap(
 					jQuery('<div></div>').attr(

@@ -308,7 +308,8 @@ a:hover{
 	text-align: center;
 	width: 887px;	
 	margin-top: 150px;
-	height: 700px;
+	padding-bottom: 11px;
+	height: 75%;
 	background: url(../img/fon_article_back.png);
 	
 	border-radius: 5px 5px 5px 5px;
@@ -322,7 +323,7 @@ a:hover{
 		text-align: left;
 		width: 865px;	
 		margin-top: 11px;
-		height: 677px;
+		height: 62%px;
 		background: url(../img/fon_article_midlle.png);
 		border: 1px solid #b3b3b3;
 		color: #fff;
@@ -349,11 +350,12 @@ a:hover{
 					text-decoration: none;
 				}
 			}
+			
 			.main_content{
 				display: block;
 				position: relative;
 				overflow:auto;
-				height: 535px;
+				height: 135px;
 				width: 798px;   /* 798   */
 				padding-right: 8px;
 				top: 80px;

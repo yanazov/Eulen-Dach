@@ -299,21 +299,22 @@ a:hover {
   text-align: center;
   width: 887px;
   margin-top: 150px;
-  height: 700px;
+  padding-bottom: 11px;
+  height: 75%;
   background: url(../img/fon_article_back.png);
   border-radius: 5px 5px 5px 5px;
   -webkit-border-radius: 5px 5px 5px 5px;
   -moz-border-radius: 5px 5px 5px 5px;
   -khtml-border-radius: 5px 5px 5px 5px;
 }
-/* line 319, ../sass/styles.scss */
+/* line 320, ../sass/styles.scss */
 .fon_back .fon_midlle {
   display: inline-block;
   position: relative;
   text-align: left;
   width: 865px;
   margin-top: 11px;
-  height: 677px;
+  height: 62%px;
   background: url(../img/fon_article_midlle.png);
   border: 1px solid #b3b3b3;
   color: #fff;
@@ -323,13 +324,13 @@ a:hover {
   -moz-border-radius: 5px 5px 5px 5px;
   -khtml-border-radius: 5px 5px 5px 5px;
 }
-/* line 336, ../sass/styles.scss */
+/* line 337, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap {
   display: block;
   position: relative;
   left: 35px;
 }
-/* line 341, ../sass/styles.scss */
+/* line 342, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .navigation {
   display: block;
   font-family: 'georgiaitalic';
@@ -337,17 +338,17 @@ a:hover {
   color: #9c8359;
   margin-bottom: 18px;
 }
-/* line 347, ../sass/styles.scss */
+/* line 348, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .navigation a {
   color: #9c8359;
   text-decoration: none;
 }
-/* line 352, ../sass/styles.scss */
+/* line 354, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content {
   display: block;
   position: relative;
   overflow: auto;
-  height: 535px;
+  height: 135px;
   width: 798px;
   /* 798   */
   padding-right: 8px;
@@ -361,13 +362,13 @@ a:hover {
   /*  ================================= BEGIN   Contacts ============================================= */
   /*  ================================= END   Contacts ============================================= */
 }
-/* line 364, ../sass/styles.scss */
+/* line 366, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .next_text {
   display: inline-block;
   position: relative;
   /*height: 130px;*/
 }
-/* line 369, ../sass/styles.scss */
+/* line 371, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .about_img {
   display: inline-block;
   position: relative;
@@ -375,7 +376,7 @@ a:hover {
   margin: 0px 25px 5px 0px;
   height: 289px;
 }
-/* line 378, ../sass/styles.scss */
+/* line 380, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .record {
   display: inline-block;
   position: relative;
@@ -393,11 +394,11 @@ a:hover {
   line-height: 25px;
   cursor: pointer;
 }
-/* line 395, ../sass/styles.scss */
+/* line 397, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .record:hover {
   color: #825f25;
 }
-/* line 400, ../sass/styles.scss */
+/* line 402, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .main_about_head {
   display: inline-block;
   position: relative;
@@ -405,17 +406,17 @@ a:hover {
   font-size: 37pt;
   color: #6a4d1e;
 }
-/* line 406, ../sass/styles.scss */
+/* line 408, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .main_about_head span {
   color: #31870b;
 }
-/* line 410, ../sass/styles.scss */
+/* line 412, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .main_about_left {
   display: inline-block;
   position: relative;
   width: 49%;
 }
-/* line 415, ../sass/styles.scss */
+/* line 417, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .main_about_right {
   display: inline-block;
   position: absolute;
@@ -423,7 +424,7 @@ a:hover {
   top: 63px;
   width: 49%;
 }
-/* line 421, ../sass/styles.scss */
+/* line 423, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .main_about_right .record {
   display: block;
   position: relative;
@@ -442,11 +443,11 @@ a:hover {
   cursor: pointer;
   text-decoration: none;
 }
-/* line 439, ../sass/styles.scss */
+/* line 441, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .main_about_right .record:hover {
   color: #825f25;
 }
-/* line 443, ../sass/styles.scss */
+/* line 445, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .img_1 {
   margin-top: 20px;
   display: inline-block;
@@ -456,7 +457,7 @@ a:hover {
   height: 167px;
   background: url(../img/pic2.jpg) no-repeat;
 }
-/* line 452, ../sass/styles.scss */
+/* line 454, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .events {
   display: inline-block;
   position: relative;
@@ -465,7 +466,7 @@ a:hover {
   text-align: justify;
   width: 100%;
 }
-/* line 459, ../sass/styles.scss */
+/* line 461, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .events .to_inner {
   display: block;
   position: absolute;
@@ -476,13 +477,13 @@ a:hover {
   color: #6a4d1e;
   text-decoration: underline;
 }
-/* line 469, ../sass/styles.scss */
+/* line 471, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .events ul {
   display: inline-block;
   position: relative;
   width: 100%;
 }
-/* line 475, ../sass/styles.scss */
+/* line 477, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .events li {
   display: inline-block;
   position: relative;
@@ -491,7 +492,7 @@ a:hover {
   /* 17  */
   text-align: left;
 }
-/* line 481, ../sass/styles.scss */
+/* line 483, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .events li a {
   display: inline-block;
   position: relative;
@@ -499,26 +500,26 @@ a:hover {
   font-family: 'georgiaitalic';
   font-size: 12pt;
 }
-/* line 488, ../sass/styles.scss */
+/* line 490, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .events li img {
   display: inline-block;
   position: relative;
   margin: 15px 0px 5px 0px;
   height: 128px;
 }
-/* line 495, ../sass/styles.scss */
+/* line 497, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .events li:first-child {
   display: inline-block;
   position: relative;
   margin-left: 0px;
 }
-/* line 501, ../sass/styles.scss */
+/* line 503, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .events li:last-child {
   display: inline-block;
   position: relative;
   width: 200px;
 }
-/* line 505, ../sass/styles.scss */
+/* line 507, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .events li:last-child a {
   display: inline-block;
   position: relative;
@@ -526,13 +527,13 @@ a:hover {
   font-family: 'georgiaitalic';
   font-size: 12pt;
 }
-/* line 512, ../sass/styles.scss */
+/* line 514, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .events li:last-child img {
   display: block;
   position: relative;
   margin: 15px 0px 5px 0px;
 }
-/* line 519, ../sass/styles.scss */
+/* line 521, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .group {
   display: block;
   position: relative;
@@ -540,7 +541,7 @@ a:hover {
   background: url(../img/separ_main.png) repeat-x;
   text-align: justify;
 }
-/* line 525, ../sass/styles.scss */
+/* line 527, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .group .to_inner {
   display: inline-block;
   position: absolute;
@@ -551,7 +552,7 @@ a:hover {
   color: #6a4d1e;
   text-decoration: underline;
 }
-/* line 535, ../sass/styles.scss */
+/* line 537, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .group .group_ul {
   display: block;
   position: relative;
@@ -560,7 +561,7 @@ a:hover {
   text-align: left;
   overflow: hidden;
 }
-/* line 542, ../sass/styles.scss */
+/* line 544, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .group .group_ul .raspisanie {
   display: inline-block;
   position: relative;
@@ -569,17 +570,17 @@ a:hover {
   background: url(../img/fon_group.png) no-repeat;
   color: #6a4d1e;
 }
-/* line 551, ../sass/styles.scss */
+/* line 553, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .group .group_ul .li {
   display: inline-block;
   position: relative;
 }
-/* line 556, ../sass/styles.scss */
+/* line 558, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .group .group_ul .group_li1 {
   display: inline-block;
   position: relative;
 }
-/* line 560, ../sass/styles.scss */
+/* line 562, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .group .group_ul .group_li2 {
   display: inline-block;
   position: relative;
@@ -591,7 +592,7 @@ a:hover {
   font-size: 10pt;
   width: 210px;
 }
-/* line 571, ../sass/styles.scss */
+/* line 573, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .group .group_ul .group_li2:first-child {
   margin-top: 10px;
   margin-left: 20px;
@@ -602,11 +603,11 @@ a:hover {
   font-family: 'georgiaitalic';
   font-size: 12pt;
 }
-/* line 581, ../sass/styles.scss */
+/* line 583, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .group .group_ul .group_li2:last-child {
   border: none;
 }
-/* line 585, ../sass/styles.scss */
+/* line 587, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .group .group_ArrowLeft {
   display: block;
   position: absolute;
@@ -618,7 +619,7 @@ a:hover {
   z-index: 10;
   cursor: pointer;
 }
-/* line 596, ../sass/styles.scss */
+/* line 598, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .group .group_ArrowRight {
   display: block;
   position: absolute;
@@ -630,7 +631,7 @@ a:hover {
   z-index: 10;
   cursor: pointer;
 }
-/* line 608, ../sass/styles.scss */
+/* line 610, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .price {
   display: block;
   position: relative;
@@ -638,7 +639,7 @@ a:hover {
   background: url(../img/separ_main.png) repeat-x;
   text-align: justify;
 }
-/* line 615, ../sass/styles.scss */
+/* line 617, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .price .price_owl {
   display: block;
   position: absolute;
@@ -649,7 +650,7 @@ a:hover {
   background: url(../img/owl.png) no-repeat;
   z-index: 10;
 }
-/* line 625, ../sass/styles.scss */
+/* line 627, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .price .to_inner {
   display: inline-block;
   position: absolute;
@@ -660,7 +661,7 @@ a:hover {
   color: #6a4d1e;
   text-decoration: underline;
 }
-/* line 635, ../sass/styles.scss */
+/* line 637, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .price .fon_table {
   display: block;
   position: relative;
@@ -671,7 +672,7 @@ a:hover {
   height: 398px;
   z-index: 20;
 }
-/* line 644, ../sass/styles.scss */
+/* line 646, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .price .fon_table .price_ul {
   display: block;
   position: relative;
@@ -679,7 +680,7 @@ a:hover {
   width: 762px;
   border: 1px solid #d6b98b;
 }
-/* line 650, ../sass/styles.scss */
+/* line 652, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .price .fon_table .price_ul li {
   display: inline-block;
   position: relative;
@@ -691,16 +692,16 @@ a:hover {
   margin-left: 16px;
   padding: 9px 0px 9px 0px;
 }
-/* line 661, ../sass/styles.scss */
+/* line 663, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .price .fon_table .price_ul li:first-child {
   margin-left: 20px;
 }
-/* line 664, ../sass/styles.scss */
+/* line 666, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .price .fon_table .price_ul li:last-child {
   width: 145px;
   margin-left: 20px;
 }
-/* line 670, ../sass/styles.scss */
+/* line 672, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .price .fon_table .price_content {
   display: block;
   position: relative;
@@ -710,7 +711,7 @@ a:hover {
   border: 1px solid #d6b98b;
   border-top: none;
 }
-/* line 680, ../sass/styles.scss */
+/* line 682, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .price .fon_table .price_content .price_li .price_ul_dark li {
   display: inline-block;
   position: relative;
@@ -722,20 +723,20 @@ a:hover {
   margin-left: 16px;
   padding: 9px 0px 9px 0px;
 }
-/* line 691, ../sass/styles.scss */
+/* line 693, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .price .fon_table .price_content .price_li .price_ul_dark li:first-child {
   margin-left: 20px;
 }
-/* line 694, ../sass/styles.scss */
+/* line 696, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .price .fon_table .price_content .price_li .price_ul_dark li:last-child {
   width: 145px;
 }
-/* line 698, ../sass/styles.scss */
+/* line 700, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .price .fon_table .price_content .price_li .price_ul_light {
   background: url(../img/fon_light.png);
   /*background-color: #f38;*/
 }
-/* line 701, ../sass/styles.scss */
+/* line 703, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .price .fon_table .price_content .price_li .price_ul_light li {
   display: inline-block;
   position: relative;
@@ -747,15 +748,15 @@ a:hover {
   margin-left: 16px;
   padding: 9px 0px 9px 0px;
 }
-/* line 712, ../sass/styles.scss */
+/* line 714, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .price .fon_table .price_content .price_li .price_ul_light li:first-child {
   margin-left: 20px;
 }
-/* line 715, ../sass/styles.scss */
+/* line 717, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .price .fon_table .price_content .price_li .price_ul_light li:last-child {
   width: 145px;
 }
-/* line 724, ../sass/styles.scss */
+/* line 726, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .online {
   display: block;
   position: relative;
@@ -763,14 +764,14 @@ a:hover {
   background: url(../img/separ_main.png) repeat-x;
   padding: 0px 260px 0px 150px;
 }
-/* line 730, ../sass/styles.scss */
+/* line 732, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .online .online_txt {
   display: block;
   position: relative;
   font-family: 'georgiaregular';
   font-size: 11pt;
 }
-/* line 736, ../sass/styles.scss */
+/* line 738, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .online .open_book {
   display: block;
   position: absolute;
@@ -781,7 +782,7 @@ a:hover {
   background-size: contain;
   background: url(../img/open_book.png) no-repeat;
 }
-/* line 746, ../sass/styles.scss */
+/* line 748, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .online .online_btn {
   display: block;
   position: absolute;
@@ -800,11 +801,11 @@ a:hover {
   cursor: pointer;
   text-decoration: none;
 }
-/* line 764, ../sass/styles.scss */
+/* line 766, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .online .online_btn:hover {
   color: #825f25;
 }
-/* line 769, ../sass/styles.scss */
+/* line 771, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .foto {
   display: block;
   position: relative;
@@ -812,7 +813,7 @@ a:hover {
   background: url(../img/separ_main.png) repeat-x;
   text-align: justify;
 }
-/* line 775, ../sass/styles.scss */
+/* line 777, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .foto .to_inner {
   display: inline-block;
   position: absolute;
@@ -823,7 +824,7 @@ a:hover {
   color: #6a4d1e;
   text-decoration: underline;
 }
-/* line 785, ../sass/styles.scss */
+/* line 787, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .foto ul {
   display: block;
   position: relative;
@@ -835,20 +836,20 @@ a:hover {
   text-align: left;
   font-size: 0;
 }
-/* line 795, ../sass/styles.scss */
+/* line 797, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .foto ul li {
   display: inline-block;
   position: relative;
   margin: 0;
   text-align: center;
 }
-/* line 800, ../sass/styles.scss */
+/* line 802, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .foto ul li img {
   height: 161px;
   width: 252px;
   margin: 0;
 }
-/* line 808, ../sass/styles.scss */
+/* line 810, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .foto .foto_ArrowLeft {
   display: block;
   position: absolute;
@@ -860,7 +861,7 @@ a:hover {
   z-index: 10;
   cursor: pointer;
 }
-/* line 819, ../sass/styles.scss */
+/* line 821, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .foto .foto_ArrowRight {
   display: block;
   position: absolute;
@@ -872,7 +873,7 @@ a:hover {
   z-index: 10;
   cursor: pointer;
 }
-/* line 833, ../sass/styles.scss */
+/* line 835, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .frends {
   display: block;
   position: relative;
@@ -880,32 +881,32 @@ a:hover {
   background: url(../img/separ_main.png) repeat-x;
   padding-top: 10px;
 }
-/* line 839, ../sass/styles.scss */
+/* line 841, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .frends ul {
   display: block;
   position: relative;
   margin-top: 20px;
   text-align: center;
 }
-/* line 844, ../sass/styles.scss */
+/* line 846, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .frends ul li {
   display: inline-block;
   position: relative;
   margin-right: 30px;
 }
-/* line 848, ../sass/styles.scss */
+/* line 850, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .frends ul li img {
   height: 90px;
 }
-/* line 852, ../sass/styles.scss */
+/* line 854, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .frends ul li:last-child {
   margin: 0px;
 }
-/* line 854, ../sass/styles.scss */
+/* line 856, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .frends ul li:last-child img {
   margin: 2px;
 }
-/* line 862, ../sass/styles.scss */
+/* line 864, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .literatura_elem {
   display: inline-block;
   position: relative;
@@ -917,13 +918,13 @@ a:hover {
   color: #735d37;
   font-size: 10pt;
 }
-/* line 872, ../sass/styles.scss */
+/* line 874, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .literatura_elem img {
   float: left;
   margin-right: 15px;
   height: 217px;
 }
-/* line 877, ../sass/styles.scss */
+/* line 879, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .literatura_elem a {
   display: block;
   position: relative;
@@ -932,17 +933,17 @@ a:hover {
   font-size: 11pt;
   margin-bottom: 25px;
 }
-/* line 885, ../sass/styles.scss */
+/* line 887, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .literatura_elem a:hover {
   text-decoration: none;
 }
-/* line 888, ../sass/styles.scss */
+/* line 890, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .literatura_elem .literatura_elem_about {
   display: inline-block;
   position: relative;
   width: 160px;
 }
-/* line 893, ../sass/styles.scss */
+/* line 895, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .literatura_elem .details {
   display: block;
   position: absolute;
@@ -955,28 +956,28 @@ a:hover {
   left: 188px;
   text-decoration: underline;
 }
-/* line 905, ../sass/styles.scss */
+/* line 907, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .literatura_elem .details:hover {
   text-decoration: none;
 }
-/* line 912, ../sass/styles.scss */
+/* line 914, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .select_page {
   text-align: center;
 }
-/* line 914, ../sass/styles.scss */
+/* line 916, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .select_page li {
   display: inline-block;
   position: relative;
   margin: 0px 5px 0px 5px;
   color: #877c32;
 }
-/* line 919, ../sass/styles.scss */
+/* line 921, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .select_page li a {
   color: #877c32;
   font-family: 'minion_proregular';
   font-size: 12pt;
 }
-/* line 928, ../sass/styles.scss */
+/* line 930, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .contacts_adres {
   display: inline-block;
   position: relative;
@@ -984,15 +985,15 @@ a:hover {
   font-size: 10pt;
   font-family: 'georgiaregular';
 }
-/* line 934, ../sass/styles.scss */
+/* line 936, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .contacts_adres li {
   margin-top: 15px;
 }
-/* line 937, ../sass/styles.scss */
+/* line 939, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .contacts_adres li:first-child {
   margin-top: 0px;
 }
-/* line 941, ../sass/styles.scss */
+/* line 943, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .contacts_tel {
   display: inline-block;
   position: relative;
@@ -1001,15 +1002,15 @@ a:hover {
   font-family: 'georgiaregular';
   font-size: 10pt;
 }
-/* line 948, ../sass/styles.scss */
+/* line 950, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .contacts_tel li {
   margin-top: 15px;
 }
-/* line 951, ../sass/styles.scss */
+/* line 953, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .contacts_tel li:first-child {
   margin-top: 0px;
 }
-/* line 955, ../sass/styles.scss */
+/* line 957, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .contacts_map {
   display: block;
   position: relative;
@@ -1019,7 +1020,7 @@ a:hover {
   margin-top: 30px;
   margin-bottom: 10px;
 }
-/* line 969, ../sass/styles.scss */
+/* line 971, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .stop_scroll {
   display: inline-block;
   position: relative;
@@ -1028,7 +1029,7 @@ a:hover {
   width: 100%;
   height: 450px;
 }
-/* line 977, ../sass/styles.scss */
+/* line 979, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .stop_scroll2 {
   display: block;
   position: relative;
@@ -1037,7 +1038,7 @@ a:hover {
   width: 100%;
   height: 10px;
 }
-/* line 985, ../sass/styles.scss */
+/* line 987, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .stop_scroll3 {
   display: block;
   position: relative;
@@ -1045,11 +1046,11 @@ a:hover {
   width: 100%;
   height: 10px;
 }
-/* line 992, ../sass/styles.scss */
+/* line 994, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .first_content {
   height: 630px;
 }
-/* line 996, ../sass/styles.scss */
+/* line 998, ../sass/styles.scss */
 .fon_back .fon_midlle .main_scroll {
   display: block;
   position: relative;
@@ -1058,20 +1059,20 @@ a:hover {
   height: 625px;
 }
 
-/* line 1006, ../sass/styles.scss */
+/* line 1008, ../sass/styles.scss */
 .footer {
   display: block;
   position: relative;
   text-align: center;
 }
-/* line 1010, ../sass/styles.scss */
+/* line 1012, ../sass/styles.scss */
 .footer .footer_center {
   display: inline-block;
   position: relative;
   width: 887px;
   text-align: left;
 }
-/* line 1015, ../sass/styles.scss */
+/* line 1017, ../sass/styles.scss */
 .footer .footer_center .copyrite {
   display: inline-block;
   position: relative;
@@ -1080,7 +1081,7 @@ a:hover {
   font-family: 'georgiaregular';
   font-size: 11pt;
 }
-/* line 1023, ../sass/styles.scss */
+/* line 1025, ../sass/styles.scss */
 .footer .footer_center .footer_menu1 {
   display: inline-block;
   position: relative;
@@ -1089,11 +1090,11 @@ a:hover {
   font-family: 'georgiaregular';
   font-size: 11pt;
 }
-/* line 1030, ../sass/styles.scss */
+/* line 1032, ../sass/styles.scss */
 .footer .footer_center .footer_menu1 a {
   color: #fff;
 }
-/* line 1034, ../sass/styles.scss */
+/* line 1036, ../sass/styles.scss */
 .footer .footer_center .footer_menu2 {
   display: inline-block;
   position: relative;
@@ -1102,11 +1103,11 @@ a:hover {
   font-family: 'georgiaregular';
   font-size: 11pt;
 }
-/* line 1041, ../sass/styles.scss */
+/* line 1043, ../sass/styles.scss */
 .footer .footer_center .footer_menu2 a {
   color: #fff;
 }
-/* line 1045, ../sass/styles.scss */
+/* line 1047, ../sass/styles.scss */
 .footer .footer_center .made_in {
   float: right;
   margin-top: 40px;
@@ -1115,7 +1116,7 @@ a:hover {
   color: #fff;
   text-align: right;
 }
-/* line 1052, ../sass/styles.scss */
+/* line 1054, ../sass/styles.scss */
 .footer .footer_center .made_in a {
   color: #fff;
 }
