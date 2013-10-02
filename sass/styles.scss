@@ -103,6 +103,8 @@ ul  {
 }
 
 h1{
+	display: block;
+	height: 57px;
 	font-family: 'disneyparkregular';
 	font-size: 32pt;
 	color: $color_brown;
@@ -153,7 +155,7 @@ a:hover{
 		width: 100%;
 		height: 100%;
 		background: url(../img/fon_article.jpg) no-repeat;
-		background-size: contain; 
+		background-size: auto 100%; 
 		background-position: 50%;
 		
 	}
@@ -346,8 +348,13 @@ a:hover{
 				font-size: 11pt;
 				color: #9c8359;
 				margin-bottom: 18px;
+				font-style: italic;
 				a{
 					color: #9c8359;
+					font-style: italic;
+				
+				}
+				a:hover{
 					text-decoration: none;
 				}
 			}
@@ -455,8 +462,6 @@ a:hover{
 				.events{
 					display: inline-block;
 					position: relative;
-					margin-top: 20px;
-					background: url(../img/separ_main.png) repeat-x;
 					text-align: justify;
 					width: 100%;
 					.to_inner{
@@ -469,53 +474,92 @@ a:hover{
 						color: #6a4d1e;
 						text-decoration: underline;
 					}
+					a{
+						
+						
+					
+					}
+					.to_inner:hover{
+						text-decoration: none;
+					}
 					ul{
 						display: inline-block;
 						position: relative;
 						width: 100%;
-						
+						padding: 0;
+						margin: 0;
 					}
-					li{
+					.events_elem{
 						display: inline-block;
 						position: relative;
+						float: left;
 						width: 240px;
-						margin-left: 17px;   /* 17  */
+						height: 210px;
+						margin-left: 25px;   /* 17  */
 						text-align: left;
+						margin-bottom: 1px;
 						a{
-							display: inline-block;
-							position: relative;
+							
 							color: #6a4d1e;
 							font-family: 'georgiaitalic';
 							font-size: 12pt;
+							font-style: italic;
 						}
 						img{
-							display: inline-block;
-							position: relative;
+							display: block;
+							position: absolute;
+							top: 35px;
+							left: 0px;
 							margin: 15px 0px 5px 0px;
 							height: 128px;
 						}
+						.detail{
+							display: block;
+							position: absolute;
+							top: 180px;
+							left: 0px;
+						}
 					}
-					li:first-child{
+					.events_elem:first-child{
 						display: inline-block;
 						position: relative;
 						margin-left: 0px;
 						
 					}
-					li:last-child{
+				/*	.events_elem:last-child{
 						display: inline-block;
 						position: relative;
-						width: 200px;
+						width: 240px;
+						height: 210px;
 						a{
-							display: inline-block;
-							position: relative;
+							
 							color: #6a4d1e;
 							font-family: 'georgiaitalic';
 							font-size: 12pt;
 						}
 						img{
-							display: block;
+							display: inline-block;
 							position: relative;
 							margin: 15px 0px 5px 0px;
+						}
+					}*/
+					.select_page_events{		
+						display: block;
+						position: relative;
+						text-align: center;
+						top: 0px;
+						margin: 0 auto;
+						margin-bottom: 20px;
+						li{
+							display: inline-block;
+							position: relative;
+							margin: 0px 5px 0px 5px;
+							color: #877c32;
+							a{
+								color: #877c32;
+								font-family: 'minion_proregular';
+								font-size: 12pt;
+							}
 						}
 					}
 				}
@@ -608,12 +652,48 @@ a:hover{
 						cursor: pointer;
 					}
 				}
+				.group_inner{
+					display: block;
+					position: relative;
+					background: url(../img/schedule_inner.png) no-repeat;
+					height: 110px;
+					width: 95%;
+					background-size: 100% auto; 
+					padding: 15px 0px 0px 5%;
+					font-family: 'georgiaitalic';
+					font-style: italic;
+					margin-bottom: 11px;
+					ul{
+						margin-top: 10px;
+						li{
+							display: inline-block;
+							position: relative;
+							font-size: 10pt;
+							font-family: 'georgiaregular';
+							font-style: normal;
+							border-top: 1px solid #d6b98b;
+							padding-top: 13px;
+							text-align: center;
+							margin-left: 5.7%;
+							a{
+								display: block;
+								font-family: 'georgiaitalic';
+								font-style: italic;
+								font-size: 11pt;
+								margin-top: 7px;
+								color: #878605;
+								
+							}
+						}
+						li:first-child{
+							margin-left: 0px;
+						}
+					}
+				
+				}
 				.price{
 					display: block;
 					position: relative;
-					margin-top: 20px;
-					background: url(../img/separ_main.png) repeat-x;
-					
 					text-align: justify;
 					.price_owl{
 						display: block;
@@ -648,7 +728,7 @@ a:hover{
 							display: block;
 							position: relative;
 							margin: 0px 0px 0px 5px;
-							width: 762px;
+							width: 98.5%;
 							border: 1px solid #d6b98b;
 							li{
 								display: inline-block;
@@ -675,7 +755,7 @@ a:hover{
 							position: relative;
 							margin: 0px;
 							margin-left: 5px;
-							width: 762px;
+							width: 98.5%;
 							border: 1px solid #d6b98b;
 							border-top: none;
 							.price_li{
@@ -881,6 +961,7 @@ a:hover{
 						display: block;
 						position: relative;
 						font-family: 'georgiaitalic';
+						font-style: italic;
 						color: #3a2708;
 						font-size: 11pt;
 						margin-bottom: 25px;
@@ -968,7 +1049,111 @@ a:hover{
 				margin-top: 30px;
 				margin-bottom: 10px;
 			}
+			.contacts_personal_info{
+				dispaly: block;
+				/*height: 553px;*/
+				input{
+					display: block;
+					position: relative;
+					height: 37px;
+					width: 376px;
+					margin-top: 6px;
+					padding: 0px 15px 0px 15px;
+					outline: none;
+					font-size: 11pt;
+					font-family: 'georgiaregular';
+					border: 1px solid #e1e1e0;
+					background-color: #f4efe7;
+					
+					border-radius: 4px 4px 4px 4px;
+					-webkit-border-radius: 4px 4px 4px 4px;
+					-moz-border-radius: 4px 4px 4px 4px;
+					-khtml-border-radius: 4px 4px 4px 4px;
+				}
+				textarea{
+					display: block;
+					position: relative;
+					height: 225px;
+					width: 376px;
+					margin-top: 6px;
+					padding: 15px 15px 15px 15px;
+					font-size: 11pt;
+					font-family: 'georgiaregular';
+					outline: none;
+					resize: none;
+					border: 1px solid #e1e1e0;
+					background-color: #f4efe7;
+					
+					border-radius: 4px 4px 4px 4px;
+					-webkit-border-radius: 4px 4px 4px 4px;
+					-moz-border-radius: 4px 4px 4px 4px;
+					-khtml-border-radius: 4px 4px 4px 4px;
+				}
+				.btn_send{
+					display: block;
+					position: relative;
+					height: 35px;
+					width: 125px;
+					margin-top: 6px;
+					margin-left: 282px;
+					margin-bottom: 5px;
+					background: url(../img/btn_send.png) no-repeat;
+					color: #fff;
+					border: none;
+					
+					-moz-box-shadow: 0 0 7px #fff; 
+					-webkit-box-shadow: 0 0 7px #fff; 
+					box-shadow: 0 0 7px  #fff; 
+					
+					
+					-moz-box-shadow: 0 0 5px #666;
+					-webkit-box-shadow: 0 0 5px #666;
+					box-shadow: 0 0 5px #666; 
+				}
+				.name{
+					border: 1px solid #67c12b;				
+				}
+				.tel{
+					border: 1px solid #ff4d4d;
+				}
+			}
 			
+			.status_name{
+				display: block;
+				position: absolute;
+				top: 631px;
+				left: 416px;
+				background: url(../img/good.png) no-repeat;
+				font-size: 11pt;
+				font-family: 'georgiaregular';
+				padding: 4px 0px 0px 40px;
+				height: 26px;
+				width: 200px;
+			}
+			.status_tel{
+				display: block;
+				position: absolute;
+				top: 676px;
+				left: 416px;
+				background: url(../img/error.png) no-repeat;
+				font-size: 11pt;
+				font-family: 'georgiaregular';
+				padding: 4px 0px 0px 40px;
+				color: #ff4d4d;
+				height: 26px;
+				width: 200px;
+			}
+			.status_mail{
+				display: block;
+				position: absolute;
+				top: 721px;
+				left: 416px;				
+				height: 26px;
+				width: 200px;
+				font-size: 11pt;
+				font-family: 'georgiaregular';
+				padding: 4px 0px 0px 40px;
+			}
 /*  ================================= END   Contacts ============================================= */			
 				
 		}

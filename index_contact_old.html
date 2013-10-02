@@ -3,6 +3,7 @@
 <head>	
 	<meta charset="utf-8">
 	<title>EulenDach</title>
+	<script type="text/javascript" src="js/slider.js"></script>
 	<script type="text/javascript" src="js/jquery.js"></script>
 	<script type="text/javascript" src="js/jquery.mousewheel.min.js"></script>
 	<script type="text/javascript" src="js/jScrollPane.js"></script>
@@ -73,19 +74,36 @@
 					<div class="contacts_map"></div>
 					<h1>Обратная связь</h1>
 					<form class="contacts_personal_info">
-						<input type="text" class="name" value="Ваше имя" onfocus="this.value=''" onblur="this.value='Ваше имя'">
-						<input type="text" class="tel" value="Ваш номер телефона" onfocus="this.value=''" onblur="this.value='Ваш номер телефона'">
-						<input type="text" class="mail" value="Ваш E-Mail" onfocus="this.value=''" onblur="this.value='Ваш E-Mail'">
+						<input type="text" class="text" value="Ваше имя" onfocus="this.value=''" onblur="this.value='Ваше имя'">
+						<input type="text" class="text" value="Ваш номер телефона" onfocus="this.value=''" onblur="this.value='Ваш номер телефона'">
+						<input type="text" class="text" value="Ваш E-Mail" onfocus="this.value=''" onblur="this.value='Ваш E-Mail'">
 						<textarea  onfocus="this.value=''" onblur="this.value='Текст письма'">Текст письма</textarea>
-						<input class="btn_send" value="Отправить" type="submit">
-					</form>   
-					<div class="status_name"></div>
-					<div class="status_tel">Это обязательное поле! </div>
-					<div class="status_mail"></div>
+					</form>
 					
-				
-				
-	
+					
+					<div class="foto">   <!-- BEGIN   foto -->
+						<span class="main_about_head">Как мы учимся</span>
+						<a class="to_inner" href="">Все фотографии</a>	
+						<ul>
+							<li><img src="img/foto1.jpg" alt=""></li>
+							<li><img src="img/foto2.jpg" alt=""></li>
+							<li><img src="img/foto3.jpg" alt=""></li>
+						</ul>
+						<div class="foto_ArrowLeft" onclick="js_foto_left()"></div>
+						<div class="foto_ArrowRight" onclick="js_foto_right()"></div>
+					</div>   <!-- END   foto -->
+					<div class="frends">   
+						<span class="main_about_head">Друзья и партнеры</span>
+						<ul>
+							<li><a href=""><img src="img/sponsor1.png" alt=""></a></li>
+							<li><a href=""><img src="img/sponsor2.png" alt=""></a></li>
+							<li><a href=""><img src="img/sponsor3.png" alt=""></a></li>
+							<li><a href=""><img src="img/sponsor4.png" alt=""></a></li>
+							<li><a href=""><img src="img/sponsor5.png" alt=""></a></li>
+							<li><a href=""><img src="img/sponsor6.png" alt=""></a></li>
+							<li><a href=""><img src="img/sponsor7.png" alt=""></a></li>
+						</ul>
+					</div>
 				</div>
 			</div>
 		</div>

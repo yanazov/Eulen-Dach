@@ -7,9 +7,7 @@ var close_menu_timer =0
 var input_value = "";
 
 
-window.onload = function() {
-	document.getElementsByClassName("jScrollPaneContainer")[0].style.height = 300+'px';
-}
+
 
 /*    0   254   508  */
 function js_group_left(){

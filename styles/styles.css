@@ -85,6 +85,8 @@ ul {
 
 /* line 105, ../sass/styles.scss */
 h1 {
+  display: block;
+  height: 57px;
   font-family: 'disneyparkregular';
   font-size: 32pt;
   color: #6a4d1e;
@@ -92,17 +94,17 @@ h1 {
   margin: 5px 0px 0px 0px;
 }
 
-/* line 114, ../sass/styles.scss */
+/* line 116, ../sass/styles.scss */
 a:hover {
   text-decoration: none;
 }
 
-/* line 118, ../sass/styles.scss */
+/* line 120, ../sass/styles.scss */
 .bold_txt {
   font-weight: 900;
 }
 
-/* line 122, ../sass/styles.scss */
+/* line 124, ../sass/styles.scss */
 .main_fon {
   display: block;
   position: absolute;
@@ -113,7 +115,7 @@ a:hover {
   background-color: #261300;
   height: 728px;
 }
-/* line 131, ../sass/styles.scss */
+/* line 133, ../sass/styles.scss */
 .main_fon .main_fon_center {
   display: inline-block;
   position: relative;
@@ -122,7 +124,7 @@ a:hover {
   background: url(../img/main_fon.jpg) repeat-x;
 }
 
-/* line 141, ../sass/styles.scss */
+/* line 143, ../sass/styles.scss */
 .inner_fon {
   display: block;
   position: absolute;
@@ -132,18 +134,18 @@ a:hover {
   text-align: center;
   background-color: #261300;
 }
-/* line 150, ../sass/styles.scss */
+/* line 152, ../sass/styles.scss */
 .inner_fon .inner_fon_center {
   display: inline-block;
   position: relative;
   width: 100%;
   height: 100%;
   background: url(../img/fon_article.jpg) no-repeat;
-  background-size: contain;
+  background-size: auto 100%;
   background-position: 50%;
 }
 
-/* line 165, ../sass/styles.scss */
+/* line 167, ../sass/styles.scss */
 .header {
   display: block;
   position: absolute;
@@ -152,18 +154,18 @@ a:hover {
   height: 249px;
   text-align: center;
 }
-/* line 173, ../sass/styles.scss */
+/* line 175, ../sass/styles.scss */
 .header .header_center {
   display: inline-block;
   position: relative;
   width: 887px;
   text-align: left;
 }
-/* line 178, ../sass/styles.scss */
+/* line 180, ../sass/styles.scss */
 .header .header_center a {
   text-decoration: none;
 }
-/* line 181, ../sass/styles.scss */
+/* line 183, ../sass/styles.scss */
 .header .header_center .logo {
   float: left;
   background: url(../img/logo.png) repeat-x;
@@ -171,7 +173,7 @@ a:hover {
   height: 103px;
   margin-top: 20px;
 }
-/* line 188, ../sass/styles.scss */
+/* line 190, ../sass/styles.scss */
 .header .header_center .logo_txt {
   float: left;
   margin-top: 17px;
@@ -179,7 +181,7 @@ a:hover {
   font-family: 'disneyparkregular';
   font-size: 40pt;
 }
-/* line 195, ../sass/styles.scss */
+/* line 197, ../sass/styles.scss */
 .header .header_center .logo_txt .logo_txt_small {
   display: block;
   position: relative;
@@ -188,7 +190,7 @@ a:hover {
   font-size: 9pt;
   font-family: 'Conv_Dynar-Medium';
 }
-/* line 204, ../sass/styles.scss */
+/* line 206, ../sass/styles.scss */
 .header .header_center .personal {
   float: right;
   margin-top: 30px;
@@ -196,7 +198,7 @@ a:hover {
   font-family: 'disneyparkregular';
   font-size: 30pt;
 }
-/* line 211, ../sass/styles.scss */
+/* line 213, ../sass/styles.scss */
 .header .header_center .personal .logo_txt_small {
   display: block;
   position: relative;
@@ -205,7 +207,7 @@ a:hover {
   font-size: 9pt;
   font-family: 'Conv_Dynar-Medium';
 }
-/* line 220, ../sass/styles.scss */
+/* line 222, ../sass/styles.scss */
 .header .header_center ul {
   display: inline-block;
   position: relative;
@@ -213,7 +215,7 @@ a:hover {
   width: 800px;
   text-align: left;
 }
-/* line 226, ../sass/styles.scss */
+/* line 228, ../sass/styles.scss */
 .header .header_center ul li {
   display: inline-block;
   position: relative;
@@ -223,17 +225,17 @@ a:hover {
   font-family: 'Conv_Dynar-Medium';
   background: url(../img/header_separ.png) no-repeat;
 }
-/* line 235, ../sass/styles.scss */
+/* line 237, ../sass/styles.scss */
 .header .header_center ul li a {
   color: #fff;
   text-decoration: none;
 }
-/* line 240, ../sass/styles.scss */
+/* line 242, ../sass/styles.scss */
 .header .header_center ul li:first-child {
   margin-left: 3px;
   background: none;
 }
-/* line 245, ../sass/styles.scss */
+/* line 247, ../sass/styles.scss */
 .header .header_center .menu_events {
   display: none;
   position: absolute;
@@ -249,7 +251,7 @@ a:hover {
   -khtml-border-radius: 5px 5px 5px 5px;
   z-index: 100;
 }
-/* line 261, ../sass/styles.scss */
+/* line 263, ../sass/styles.scss */
 .header .header_center .menu_events ul {
   display: block;
   position: relative;
@@ -265,7 +267,7 @@ a:hover {
   -moz-border-radius: 5px 5px 5px 5px;
   -khtml-border-radius: 5px 5px 5px 5px;
 }
-/* line 276, ../sass/styles.scss */
+/* line 278, ../sass/styles.scss */
 .header .header_center .menu_events ul li {
   display: block;
   position: relative;
@@ -275,24 +277,24 @@ a:hover {
   border-bottom: 1px dashed #95805f;
   padding-bottom: 10px;
 }
-/* line 284, ../sass/styles.scss */
+/* line 286, ../sass/styles.scss */
 .header .header_center .menu_events ul li a {
   color: #95805f;
 }
-/* line 287, ../sass/styles.scss */
+/* line 289, ../sass/styles.scss */
 .header .header_center .menu_events ul li a:hover {
   color: #6b5c45;
 }
-/* line 292, ../sass/styles.scss */
+/* line 294, ../sass/styles.scss */
 .header .header_center .menu_events ul li:last-child {
   border: none;
 }
-/* line 295, ../sass/styles.scss */
+/* line 297, ../sass/styles.scss */
 .header .header_center .menu_events ul li:first-child {
   margin-top: 20px;
 }
 
-/* line 305, ../sass/styles.scss */
+/* line 307, ../sass/styles.scss */
 .fon_back {
   display: inline-block;
   position: relative;
@@ -307,7 +309,7 @@ a:hover {
   -moz-border-radius: 5px 5px 5px 5px;
   -khtml-border-radius: 5px 5px 5px 5px;
 }
-/* line 320, ../sass/styles.scss */
+/* line 322, ../sass/styles.scss */
 .fon_back .fon_midlle {
   display: inline-block;
   position: relative;
@@ -325,26 +327,31 @@ a:hover {
   -moz-border-radius: 5px 5px 5px 5px;
   -khtml-border-radius: 5px 5px 5px 5px;
 }
-/* line 338, ../sass/styles.scss */
+/* line 340, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap {
   display: block;
   position: relative;
   left: 35px;
 }
-/* line 343, ../sass/styles.scss */
+/* line 345, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .navigation {
   display: block;
   font-family: 'georgiaitalic';
   font-size: 11pt;
   color: #9c8359;
   margin-bottom: 18px;
+  font-style: italic;
 }
-/* line 349, ../sass/styles.scss */
+/* line 352, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .navigation a {
   color: #9c8359;
+  font-style: italic;
+}
+/* line 357, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .navigation a:hover {
   text-decoration: none;
 }
-/* line 355, ../sass/styles.scss */
+/* line 362, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content {
   display: block;
   position: relative;
@@ -363,13 +370,13 @@ a:hover {
   /*  ================================= BEGIN   Contacts ============================================= */
   /*  ================================= END   Contacts ============================================= */
 }
-/* line 367, ../sass/styles.scss */
+/* line 374, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .next_text {
   display: inline-block;
   position: relative;
   /*height: 130px;*/
 }
-/* line 372, ../sass/styles.scss */
+/* line 379, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .about_img {
   display: inline-block;
   position: relative;
@@ -377,7 +384,7 @@ a:hover {
   margin: 0px 25px 5px 0px;
   height: 289px;
 }
-/* line 381, ../sass/styles.scss */
+/* line 388, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .record {
   display: inline-block;
   position: relative;
@@ -395,11 +402,11 @@ a:hover {
   line-height: 25px;
   cursor: pointer;
 }
-/* line 398, ../sass/styles.scss */
+/* line 405, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .record:hover {
   color: #825f25;
 }
-/* line 403, ../sass/styles.scss */
+/* line 410, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .main_about_head {
   display: inline-block;
   position: relative;
@@ -407,17 +414,17 @@ a:hover {
   font-size: 37pt;
   color: #6a4d1e;
 }
-/* line 409, ../sass/styles.scss */
+/* line 416, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .main_about_head span {
   color: #31870b;
 }
-/* line 413, ../sass/styles.scss */
+/* line 420, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .main_about_left {
   display: inline-block;
   position: relative;
   width: 49%;
 }
-/* line 418, ../sass/styles.scss */
+/* line 425, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .main_about_right {
   display: inline-block;
   position: absolute;
@@ -425,7 +432,7 @@ a:hover {
   top: 63px;
   width: 49%;
 }
-/* line 424, ../sass/styles.scss */
+/* line 431, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .main_about_right .record {
   display: block;
   position: relative;
@@ -444,11 +451,11 @@ a:hover {
   cursor: pointer;
   text-decoration: none;
 }
-/* line 442, ../sass/styles.scss */
+/* line 449, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .main_about_right .record:hover {
   color: #825f25;
 }
-/* line 446, ../sass/styles.scss */
+/* line 453, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .img_1 {
   margin-top: 20px;
   display: inline-block;
@@ -458,16 +465,31 @@ a:hover {
   height: 167px;
   background: url(../img/pic2.jpg) no-repeat;
 }
-/* line 455, ../sass/styles.scss */
+/* line 462, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .events {
   display: inline-block;
   position: relative;
-  margin-top: 20px;
-  background: url(../img/separ_main.png) repeat-x;
   text-align: justify;
   width: 100%;
+  /*	.events_elem:last-child{
+  		display: inline-block;
+  		position: relative;
+  		width: 240px;
+  		height: 210px;
+  		a{
+  			
+  			color: #6a4d1e;
+  			font-family: 'georgiaitalic';
+  			font-size: 12pt;
+  		}
+  		img{
+  			display: inline-block;
+  			position: relative;
+  			margin: 15px 0px 5px 0px;
+  		}
+  	}*/
 }
-/* line 462, ../sass/styles.scss */
+/* line 467, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .events .to_inner {
   display: block;
   position: absolute;
@@ -478,63 +500,82 @@ a:hover {
   color: #6a4d1e;
   text-decoration: underline;
 }
-/* line 472, ../sass/styles.scss */
+/* line 482, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .events .to_inner:hover {
+  text-decoration: none;
+}
+/* line 485, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .events ul {
   display: inline-block;
   position: relative;
   width: 100%;
+  padding: 0;
+  margin: 0;
 }
-/* line 478, ../sass/styles.scss */
-.fon_back .fon_midlle .scroll-wrap .main_content .events li {
+/* line 492, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .events .events_elem {
   display: inline-block;
   position: relative;
+  float: left;
   width: 240px;
-  margin-left: 17px;
+  height: 210px;
+  margin-left: 25px;
   /* 17  */
   text-align: left;
+  margin-bottom: 1px;
 }
-/* line 484, ../sass/styles.scss */
-.fon_back .fon_midlle .scroll-wrap .main_content .events li a {
-  display: inline-block;
-  position: relative;
+/* line 501, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .events .events_elem a {
   color: #6a4d1e;
   font-family: 'georgiaitalic';
   font-size: 12pt;
+  font-style: italic;
 }
-/* line 491, ../sass/styles.scss */
-.fon_back .fon_midlle .scroll-wrap .main_content .events li img {
-  display: inline-block;
-  position: relative;
+/* line 508, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .events .events_elem img {
+  display: block;
+  position: absolute;
+  top: 35px;
+  left: 0px;
   margin: 15px 0px 5px 0px;
   height: 128px;
 }
-/* line 498, ../sass/styles.scss */
-.fon_back .fon_midlle .scroll-wrap .main_content .events li:first-child {
+/* line 516, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .events .events_elem .detail {
+  display: block;
+  position: absolute;
+  top: 180px;
+  left: 0px;
+}
+/* line 523, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .events .events_elem:first-child {
   display: inline-block;
   position: relative;
   margin-left: 0px;
 }
-/* line 504, ../sass/styles.scss */
-.fon_back .fon_midlle .scroll-wrap .main_content .events li:last-child {
-  display: inline-block;
-  position: relative;
-  width: 200px;
-}
-/* line 508, ../sass/styles.scss */
-.fon_back .fon_midlle .scroll-wrap .main_content .events li:last-child a {
-  display: inline-block;
-  position: relative;
-  color: #6a4d1e;
-  font-family: 'georgiaitalic';
-  font-size: 12pt;
-}
-/* line 515, ../sass/styles.scss */
-.fon_back .fon_midlle .scroll-wrap .main_content .events li:last-child img {
+/* line 546, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .events .select_page_events {
   display: block;
   position: relative;
-  margin: 15px 0px 5px 0px;
+  text-align: center;
+  top: 0px;
+  margin: 0 auto;
+  margin-bottom: 20px;
 }
-/* line 522, ../sass/styles.scss */
+/* line 553, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .events .select_page_events li {
+  display: inline-block;
+  position: relative;
+  margin: 0px 5px 0px 5px;
+  color: #877c32;
+}
+/* line 558, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .events .select_page_events li a {
+  color: #877c32;
+  font-family: 'minion_proregular';
+  font-size: 12pt;
+}
+/* line 566, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .group {
   display: block;
   position: relative;
@@ -542,7 +583,7 @@ a:hover {
   background: url(../img/separ_main.png) repeat-x;
   text-align: justify;
 }
-/* line 528, ../sass/styles.scss */
+/* line 572, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .group .to_inner {
   display: inline-block;
   position: absolute;
@@ -553,7 +594,7 @@ a:hover {
   color: #6a4d1e;
   text-decoration: underline;
 }
-/* line 538, ../sass/styles.scss */
+/* line 582, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .group .group_ul {
   display: block;
   position: relative;
@@ -562,7 +603,7 @@ a:hover {
   text-align: left;
   overflow: hidden;
 }
-/* line 545, ../sass/styles.scss */
+/* line 589, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .group .group_ul .raspisanie {
   display: inline-block;
   position: relative;
@@ -571,17 +612,17 @@ a:hover {
   background: url(../img/fon_group.png) no-repeat;
   color: #6a4d1e;
 }
-/* line 554, ../sass/styles.scss */
+/* line 598, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .group .group_ul .li {
   display: inline-block;
   position: relative;
 }
-/* line 559, ../sass/styles.scss */
+/* line 603, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .group .group_ul .group_li1 {
   display: inline-block;
   position: relative;
 }
-/* line 563, ../sass/styles.scss */
+/* line 607, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .group .group_ul .group_li2 {
   display: inline-block;
   position: relative;
@@ -593,7 +634,7 @@ a:hover {
   font-size: 10pt;
   width: 210px;
 }
-/* line 574, ../sass/styles.scss */
+/* line 618, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .group .group_ul .group_li2:first-child {
   margin-top: 10px;
   margin-left: 20px;
@@ -604,11 +645,11 @@ a:hover {
   font-family: 'georgiaitalic';
   font-size: 12pt;
 }
-/* line 584, ../sass/styles.scss */
+/* line 628, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .group .group_ul .group_li2:last-child {
   border: none;
 }
-/* line 588, ../sass/styles.scss */
+/* line 632, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .group .group_ArrowLeft {
   display: block;
   position: absolute;
@@ -620,7 +661,7 @@ a:hover {
   z-index: 10;
   cursor: pointer;
 }
-/* line 599, ../sass/styles.scss */
+/* line 643, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .group .group_ArrowRight {
   display: block;
   position: absolute;
@@ -632,15 +673,55 @@ a:hover {
   z-index: 10;
   cursor: pointer;
 }
-/* line 611, ../sass/styles.scss */
+/* line 655, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .group_inner {
+  display: block;
+  position: relative;
+  background: url(../img/schedule_inner.png) no-repeat;
+  height: 110px;
+  width: 95%;
+  background-size: 100% auto;
+  padding: 15px 0px 0px 5%;
+  font-family: 'georgiaitalic';
+  font-style: italic;
+  margin-bottom: 11px;
+}
+/* line 666, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .group_inner ul {
+  margin-top: 10px;
+}
+/* line 668, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .group_inner ul li {
+  display: inline-block;
+  position: relative;
+  font-size: 10pt;
+  font-family: 'georgiaregular';
+  font-style: normal;
+  border-top: 1px solid #d6b98b;
+  padding-top: 13px;
+  text-align: center;
+  margin-left: 5.7%;
+}
+/* line 678, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .group_inner ul li a {
+  display: block;
+  font-family: 'georgiaitalic';
+  font-style: italic;
+  font-size: 11pt;
+  margin-top: 7px;
+  color: #878605;
+}
+/* line 688, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .group_inner ul li:first-child {
+  margin-left: 0px;
+}
+/* line 694, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .price {
   display: block;
   position: relative;
-  margin-top: 20px;
-  background: url(../img/separ_main.png) repeat-x;
   text-align: justify;
 }
-/* line 618, ../sass/styles.scss */
+/* line 698, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .price .price_owl {
   display: block;
   position: absolute;
@@ -651,7 +732,7 @@ a:hover {
   background: url(../img/owl.png) no-repeat;
   z-index: 10;
 }
-/* line 628, ../sass/styles.scss */
+/* line 708, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .price .to_inner {
   display: inline-block;
   position: absolute;
@@ -662,7 +743,7 @@ a:hover {
   color: #6a4d1e;
   text-decoration: underline;
 }
-/* line 638, ../sass/styles.scss */
+/* line 718, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .price .fon_table {
   display: block;
   position: relative;
@@ -673,15 +754,15 @@ a:hover {
   height: 398px;
   z-index: 20;
 }
-/* line 647, ../sass/styles.scss */
+/* line 727, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .price .fon_table .price_ul {
   display: block;
   position: relative;
   margin: 0px 0px 0px 5px;
-  width: 762px;
+  width: 98.5%;
   border: 1px solid #d6b98b;
 }
-/* line 653, ../sass/styles.scss */
+/* line 733, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .price .fon_table .price_ul li {
   display: inline-block;
   position: relative;
@@ -693,26 +774,26 @@ a:hover {
   margin-left: 16px;
   padding: 9px 0px 9px 0px;
 }
-/* line 664, ../sass/styles.scss */
+/* line 744, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .price .fon_table .price_ul li:first-child {
   margin-left: 20px;
 }
-/* line 667, ../sass/styles.scss */
+/* line 747, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .price .fon_table .price_ul li:last-child {
   width: 145px;
   margin-left: 20px;
 }
-/* line 673, ../sass/styles.scss */
+/* line 753, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .price .fon_table .price_content {
   display: block;
   position: relative;
   margin: 0px;
   margin-left: 5px;
-  width: 762px;
+  width: 98.5%;
   border: 1px solid #d6b98b;
   border-top: none;
 }
-/* line 683, ../sass/styles.scss */
+/* line 763, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .price .fon_table .price_content .price_li .price_ul_dark li {
   display: inline-block;
   position: relative;
@@ -724,20 +805,20 @@ a:hover {
   margin-left: 16px;
   padding: 9px 0px 9px 0px;
 }
-/* line 694, ../sass/styles.scss */
+/* line 774, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .price .fon_table .price_content .price_li .price_ul_dark li:first-child {
   margin-left: 20px;
 }
-/* line 697, ../sass/styles.scss */
+/* line 777, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .price .fon_table .price_content .price_li .price_ul_dark li:last-child {
   width: 145px;
 }
-/* line 701, ../sass/styles.scss */
+/* line 781, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .price .fon_table .price_content .price_li .price_ul_light {
   background: url(../img/fon_light.png);
   /*background-color: #f38;*/
 }
-/* line 704, ../sass/styles.scss */
+/* line 784, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .price .fon_table .price_content .price_li .price_ul_light li {
   display: inline-block;
   position: relative;
@@ -749,15 +830,15 @@ a:hover {
   margin-left: 16px;
   padding: 9px 0px 9px 0px;
 }
-/* line 715, ../sass/styles.scss */
+/* line 795, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .price .fon_table .price_content .price_li .price_ul_light li:first-child {
   margin-left: 20px;
 }
-/* line 718, ../sass/styles.scss */
+/* line 798, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .price .fon_table .price_content .price_li .price_ul_light li:last-child {
   width: 145px;
 }
-/* line 727, ../sass/styles.scss */
+/* line 807, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .online {
   display: block;
   position: relative;
@@ -765,14 +846,14 @@ a:hover {
   background: url(../img/separ_main.png) repeat-x;
   padding: 0px 260px 0px 150px;
 }
-/* line 733, ../sass/styles.scss */
+/* line 813, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .online .online_txt {
   display: block;
   position: relative;
   font-family: 'georgiaregular';
   font-size: 11pt;
 }
-/* line 739, ../sass/styles.scss */
+/* line 819, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .online .open_book {
   display: block;
   position: absolute;
@@ -783,7 +864,7 @@ a:hover {
   background-size: contain;
   background: url(../img/open_book.png) no-repeat;
 }
-/* line 749, ../sass/styles.scss */
+/* line 829, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .online .online_btn {
   display: block;
   position: absolute;
@@ -802,11 +883,11 @@ a:hover {
   cursor: pointer;
   text-decoration: none;
 }
-/* line 767, ../sass/styles.scss */
+/* line 847, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .online .online_btn:hover {
   color: #825f25;
 }
-/* line 772, ../sass/styles.scss */
+/* line 852, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .foto {
   display: block;
   position: relative;
@@ -814,7 +895,7 @@ a:hover {
   background: url(../img/separ_main.png) repeat-x;
   text-align: justify;
 }
-/* line 778, ../sass/styles.scss */
+/* line 858, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .foto .to_inner {
   display: inline-block;
   position: absolute;
@@ -825,7 +906,7 @@ a:hover {
   color: #6a4d1e;
   text-decoration: underline;
 }
-/* line 788, ../sass/styles.scss */
+/* line 868, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .foto ul {
   display: block;
   position: relative;
@@ -837,20 +918,20 @@ a:hover {
   text-align: left;
   font-size: 0;
 }
-/* line 798, ../sass/styles.scss */
+/* line 878, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .foto ul li {
   display: inline-block;
   position: relative;
   margin: 0;
   text-align: center;
 }
-/* line 803, ../sass/styles.scss */
+/* line 883, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .foto ul li img {
   height: 161px;
   width: 252px;
   margin: 0;
 }
-/* line 811, ../sass/styles.scss */
+/* line 891, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .foto .foto_ArrowLeft {
   display: block;
   position: absolute;
@@ -862,7 +943,7 @@ a:hover {
   z-index: 10;
   cursor: pointer;
 }
-/* line 822, ../sass/styles.scss */
+/* line 902, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .foto .foto_ArrowRight {
   display: block;
   position: absolute;
@@ -874,7 +955,7 @@ a:hover {
   z-index: 10;
   cursor: pointer;
 }
-/* line 836, ../sass/styles.scss */
+/* line 916, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .frends {
   display: block;
   position: relative;
@@ -882,32 +963,32 @@ a:hover {
   background: url(../img/separ_main.png) repeat-x;
   padding-top: 10px;
 }
-/* line 842, ../sass/styles.scss */
+/* line 922, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .frends ul {
   display: block;
   position: relative;
   margin-top: 20px;
   text-align: center;
 }
-/* line 847, ../sass/styles.scss */
+/* line 927, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .frends ul li {
   display: inline-block;
   position: relative;
   margin-right: 30px;
 }
-/* line 851, ../sass/styles.scss */
+/* line 931, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .frends ul li img {
   height: 90px;
 }
-/* line 855, ../sass/styles.scss */
+/* line 935, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .frends ul li:last-child {
   margin: 0px;
 }
-/* line 857, ../sass/styles.scss */
+/* line 937, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .frends ul li:last-child img {
   margin: 2px;
 }
-/* line 865, ../sass/styles.scss */
+/* line 945, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .literatura_elem {
   display: inline-block;
   position: relative;
@@ -919,32 +1000,33 @@ a:hover {
   color: #735d37;
   font-size: 10pt;
 }
-/* line 875, ../sass/styles.scss */
+/* line 955, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .literatura_elem img {
   float: left;
   margin-right: 15px;
   height: 217px;
 }
-/* line 880, ../sass/styles.scss */
+/* line 960, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .literatura_elem a {
   display: block;
   position: relative;
   font-family: 'georgiaitalic';
+  font-style: italic;
   color: #3a2708;
   font-size: 11pt;
   margin-bottom: 25px;
 }
-/* line 888, ../sass/styles.scss */
+/* line 969, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .literatura_elem a:hover {
   text-decoration: none;
 }
-/* line 891, ../sass/styles.scss */
+/* line 972, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .literatura_elem .literatura_elem_about {
   display: inline-block;
   position: relative;
   width: 160px;
 }
-/* line 896, ../sass/styles.scss */
+/* line 977, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .literatura_elem .details {
   display: block;
   position: absolute;
@@ -957,11 +1039,11 @@ a:hover {
   left: 188px;
   text-decoration: underline;
 }
-/* line 908, ../sass/styles.scss */
+/* line 989, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .literatura_elem .details:hover {
   text-decoration: none;
 }
-/* line 915, ../sass/styles.scss */
+/* line 996, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .select_page {
   display: block;
   position: relative;
@@ -969,20 +1051,20 @@ a:hover {
   top: -20px;
   margin: 0 auto;
 }
-/* line 921, ../sass/styles.scss */
+/* line 1002, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .select_page li {
   display: inline-block;
   position: relative;
   margin: 0px 5px 0px 5px;
   color: #877c32;
 }
-/* line 926, ../sass/styles.scss */
+/* line 1007, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .select_page li a {
   color: #877c32;
   font-family: 'minion_proregular';
   font-size: 12pt;
 }
-/* line 935, ../sass/styles.scss */
+/* line 1016, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .contacts_adres {
   display: inline-block;
   position: relative;
@@ -990,15 +1072,15 @@ a:hover {
   font-size: 10pt;
   font-family: 'georgiaregular';
 }
-/* line 941, ../sass/styles.scss */
+/* line 1022, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .contacts_adres li {
   margin-top: 15px;
 }
-/* line 944, ../sass/styles.scss */
+/* line 1025, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .contacts_adres li:first-child {
   margin-top: 0px;
 }
-/* line 948, ../sass/styles.scss */
+/* line 1029, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .contacts_tel {
   display: inline-block;
   position: relative;
@@ -1007,15 +1089,15 @@ a:hover {
   font-family: 'georgiaregular';
   font-size: 10pt;
 }
-/* line 955, ../sass/styles.scss */
+/* line 1036, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .contacts_tel li {
   margin-top: 15px;
 }
-/* line 958, ../sass/styles.scss */
+/* line 1039, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .contacts_tel li:first-child {
   margin-top: 0px;
 }
-/* line 962, ../sass/styles.scss */
+/* line 1043, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .main_content .contacts_map {
   display: block;
   position: relative;
@@ -1025,7 +1107,115 @@ a:hover {
   margin-top: 30px;
   margin-bottom: 10px;
 }
-/* line 976, ../sass/styles.scss */
+/* line 1052, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .contacts_personal_info {
+  dispaly: block;
+  /*height: 553px;*/
+}
+/* line 1055, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .contacts_personal_info input {
+  display: block;
+  position: relative;
+  height: 37px;
+  width: 376px;
+  margin-top: 6px;
+  padding: 0px 15px 0px 15px;
+  outline: none;
+  font-size: 11pt;
+  font-family: 'georgiaregular';
+  border: 1px solid #e1e1e0;
+  background-color: #f4efe7;
+  border-radius: 4px 4px 4px 4px;
+  -webkit-border-radius: 4px 4px 4px 4px;
+  -moz-border-radius: 4px 4px 4px 4px;
+  -khtml-border-radius: 4px 4px 4px 4px;
+}
+/* line 1073, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .contacts_personal_info textarea {
+  display: block;
+  position: relative;
+  height: 225px;
+  width: 376px;
+  margin-top: 6px;
+  padding: 15px 15px 15px 15px;
+  font-size: 11pt;
+  font-family: 'georgiaregular';
+  outline: none;
+  resize: none;
+  border: 1px solid #e1e1e0;
+  background-color: #f4efe7;
+  border-radius: 4px 4px 4px 4px;
+  -webkit-border-radius: 4px 4px 4px 4px;
+  -moz-border-radius: 4px 4px 4px 4px;
+  -khtml-border-radius: 4px 4px 4px 4px;
+}
+/* line 1092, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .contacts_personal_info .btn_send {
+  display: block;
+  position: relative;
+  height: 35px;
+  width: 125px;
+  margin-top: 6px;
+  margin-left: 282px;
+  margin-bottom: 5px;
+  background: url(../img/btn_send.png) no-repeat;
+  color: #fff;
+  border: none;
+  -moz-box-shadow: 0 0 7px #fff;
+  -webkit-box-shadow: 0 0 7px #fff;
+  box-shadow: 0 0 7px  #fff;
+  -moz-box-shadow: 0 0 5px #666;
+  -webkit-box-shadow: 0 0 5px #666;
+  box-shadow: 0 0 5px #666;
+}
+/* line 1113, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .contacts_personal_info .name {
+  border: 1px solid #67c12b;
+}
+/* line 1116, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .contacts_personal_info .tel {
+  border: 1px solid #ff4d4d;
+}
+/* line 1121, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .status_name {
+  display: block;
+  position: absolute;
+  top: 631px;
+  left: 416px;
+  background: url(../img/good.png) no-repeat;
+  font-size: 11pt;
+  font-family: 'georgiaregular';
+  padding: 4px 0px 0px 40px;
+  height: 26px;
+  width: 200px;
+}
+/* line 1133, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .status_tel {
+  display: block;
+  position: absolute;
+  top: 676px;
+  left: 416px;
+  background: url(../img/error.png) no-repeat;
+  font-size: 11pt;
+  font-family: 'georgiaregular';
+  padding: 4px 0px 0px 40px;
+  color: #ff4d4d;
+  height: 26px;
+  width: 200px;
+}
+/* line 1146, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .status_mail {
+  display: block;
+  position: absolute;
+  top: 721px;
+  left: 416px;
+  height: 26px;
+  width: 200px;
+  font-size: 11pt;
+  font-family: 'georgiaregular';
+  padding: 4px 0px 0px 40px;
+}
+/* line 1161, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .stop_scroll {
   display: inline-block;
   position: relative;
@@ -1034,7 +1224,7 @@ a:hover {
   width: 100%;
   height: 450px;
 }
-/* line 984, ../sass/styles.scss */
+/* line 1169, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .stop_scroll2 {
   display: block;
   position: relative;
@@ -1043,7 +1233,7 @@ a:hover {
   width: 100%;
   height: 10px;
 }
-/* line 992, ../sass/styles.scss */
+/* line 1177, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .stop_scroll3 {
   display: block;
   position: relative;
@@ -1051,11 +1241,11 @@ a:hover {
   width: 100%;
   height: 10px;
 }
-/* line 999, ../sass/styles.scss */
+/* line 1184, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .first_content {
   height: 630px;
 }
-/* line 1003, ../sass/styles.scss */
+/* line 1188, ../sass/styles.scss */
 .fon_back .fon_midlle .main_scroll {
   display: block;
   position: relative;
@@ -1064,20 +1254,20 @@ a:hover {
   height: 625px;
 }
 
-/* line 1013, ../sass/styles.scss */
+/* line 1198, ../sass/styles.scss */
 .footer {
   display: block;
   position: relative;
   text-align: center;
 }
-/* line 1017, ../sass/styles.scss */
+/* line 1202, ../sass/styles.scss */
 .footer .footer_center {
   display: inline-block;
   position: relative;
   width: 887px;
   text-align: left;
 }
-/* line 1022, ../sass/styles.scss */
+/* line 1207, ../sass/styles.scss */
 .footer .footer_center .copyrite {
   display: inline-block;
   position: relative;
@@ -1086,7 +1276,7 @@ a:hover {
   font-family: 'georgiaregular';
   font-size: 11pt;
 }
-/* line 1030, ../sass/styles.scss */
+/* line 1215, ../sass/styles.scss */
 .footer .footer_center .footer_menu1 {
   display: inline-block;
   position: relative;
@@ -1095,11 +1285,11 @@ a:hover {
   font-family: 'georgiaregular';
   font-size: 11pt;
 }
-/* line 1037, ../sass/styles.scss */
+/* line 1222, ../sass/styles.scss */
 .footer .footer_center .footer_menu1 a {
   color: #fff;
 }
-/* line 1041, ../sass/styles.scss */
+/* line 1226, ../sass/styles.scss */
 .footer .footer_center .footer_menu2 {
   display: inline-block;
   position: relative;
@@ -1108,11 +1298,11 @@ a:hover {
   font-family: 'georgiaregular';
   font-size: 11pt;
 }
-/* line 1048, ../sass/styles.scss */
+/* line 1233, ../sass/styles.scss */
 .footer .footer_center .footer_menu2 a {
   color: #fff;
 }
-/* line 1052, ../sass/styles.scss */
+/* line 1237, ../sass/styles.scss */
 .footer .footer_center .made_in {
   float: right;
   margin-top: 40px;
@@ -1121,7 +1311,7 @@ a:hover {
   color: #fff;
   text-align: right;
 }
-/* line 1059, ../sass/styles.scss */
+/* line 1244, ../sass/styles.scss */
 .footer .footer_center .made_in a {
   color: #fff;
 }
