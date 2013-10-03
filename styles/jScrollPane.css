@@ -11,14 +11,14 @@
 	position: absolute;
 	cursor: pointer;
 	right: 0;
-	top: 0;
+	top: 0px;
 	height: 100%;
 	background:url(../img/fon_track.png) repeat-y center;
 	
 }
 .jScrollPaneDrag {
 	position: absolute;
-	height: 19px;
+	height: 16px;
 	cursor: pointer;
 	overflow: hidden;
 	background:url(../img/drag.png) no-repeat left top;
@@ -38,7 +38,7 @@
 	overflow: hidden;
 }
 a.jScrollArrowUp {
-	display: block;
+	display: none;
 	position: absolute;
 	z-index: 1;
 	top: 4px;
@@ -46,11 +46,11 @@ a.jScrollArrowUp {
 	text-indent: -2000px;
 	overflow: hidden;
 	background:url(../img/ArrowUp.png) no-repeat center top;
-	height:23px;
+	height:0px;
 	z-index: 100;
 }
 a.jScrollArrowDown {
-	display: block;
+	display: none;
 	position: absolute;
 	z-index: 1;
 	bottom: 4px;
@@ -58,7 +58,7 @@ a.jScrollArrowDown {
 	text-indent: -2000px;
 	overflow: hidden;
 	background:url(../img/ArrowDown.png) no-repeat center top;
-	height:23px;
+	height: 10px;
 	z-index: 100;
 }
 a.jScrollActiveArrowButton, a.jScrollActiveArrowButton:hover {

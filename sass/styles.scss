@@ -1155,7 +1155,401 @@ a:hover{
 				padding: 4px 0px 0px 40px;
 			}
 /*  ================================= END   Contacts ============================================= */			
+			.menu_inner{
+				font-size: 10pt;
+				margin-bottom: 0px;
+				li{
+					display: inline-block;
+					position: relative;
+					background-color: #a5a5a5;
+					color: #fff;
+					padding: 10px 12px 10px 12px;
+					cursor: pointer;
+					
+					border-radius: 6px 6px 0px 0px;
+					-webkit-border-radius: 6px 6px 0px 0px;
+					-moz-border-radius: 6px 6px 0px 0px;
+					-khtml-border-radius: 6px 6px 0px 0px;
+				}
+				li:first-child{
+					background-color: #fff;
+					color: #6a4d1e;
+					cursor: default;
+				}
+			}	
+			.menu_cont_1{
+				display: block;
+				position: relative;
+				width: 774px;
+				background-color: #fff;
+				font-size: 14pt;
+				padding-bottom: 30px;
 				
+				border-radius: 0px 6px 6px 6px;
+				-webkit-border-radius: 0px 6px 6px 6px;
+				-moz-border-radius: 0px 6px 6px 6px;
+				-khtml-border-radius: 0px 6px 6px 6px;
+				.month{
+					display: inline-block;
+					position: relative;
+					left: 315px;
+					margin-top: 20px;
+					color: #6a4d1e;
+				}
+				.group_ArrowLeft{
+						display: block;
+						position: absolute;
+						top: 25px;
+						left: 258px;
+						background: url(../img/arrowleft_m.png) no-repeat;
+						width: 23px;
+						height: 22px;
+						z-index: 10;
+						cursor: pointer;
+					}
+					.group_ArrowRight{
+						display: block;
+						position: absolute;
+						top: 25px;
+						right: 332px;
+						background: url(../img/arrowright_m.png) no-repeat;
+						width: 23px;
+						height: 22px;
+						z-index: 10;
+						cursor: pointer;
+					}
+					.fon_table{
+						display: block;
+						position: relative;
+						margin-top: 20px;
+						background: url(../img/fon_dark.png);
+						padding-top: 5px;
+						padding-bottom: 5px;
+						height: 398px;
+						z-index: 20;
+						left: 2%;
+						width: 96%;
+						.price_ul{
+							display: block;
+							position: relative;
+							margin: 0px 0px 0px 5px;
+							width: 98.5%;
+							border: 1px solid #d6b98b;
+							padding-top: 10px;
+							height: 50px;
+							li{
+								display: inline-block;
+								position: relative;
+								font-family: 'georgiaitalic';
+								font-size: 12pt;
+								color: #6a4d20;
+								width: 170px;
+								vertical-align: top;
+								margin-left: 65px;
+								padding: 9px 0px 9px 0px;
+							}
+							li:first-child{
+								
+								
+							}
+							li:last-child{
+								width: 145px;
+								
+							}
+						
+						}
+						.price_content{
+							display: block;
+							position: relative;
+							margin: 0px;
+							margin-left: 5px;
+							width: 98.5%;
+							border: 1px solid #d6b98b;
+							border-top: none;
+							.price_li{
+								.price_ul_dark{
+									li{
+										display: inline-block;
+										position: relative;
+										font-family: 'georgiaregular';
+										font-size: 11pt;
+										color: #6a4d20;
+										width: 170px;
+										vertical-align: top;
+										margin-left: 65px;	
+										padding: 9px 0px 9px 0px;
+										padding-top: 18px;
+										height: 29px;
+									}
+									
+									li:last-child{
+										width: 145px;
+									}
+								}
+								.price_ul_light{
+									background: url(../img/fon_light.png);
+									/*background-color: #f38;*/
+									li{
+										display: inline-block;
+										position: relative;
+										font-family: 'georgiaregular';
+										font-size: 11pt;
+										color: #6a4d20;
+										width: 170px;
+										vertical-align: top;
+										margin-left: 65px;	
+										padding: 9px 0px 9px 0px;
+										padding-top: 18px;
+										height: 29px;
+									}									
+									li:last-child{
+										width: 145px;
+									}
+								}
+							}
+						}
+					}
+					.status_txt{
+						display: block;
+						position: relative;
+						width: 100%;
+						text-align: right;
+						margin-top: 18px;
+						font-size: 10pt;
+						color: #6a4d1e;
+						.status{
+							display: inline-block;
+							position: relative;
+							margin-right: 2%;
+							margin-left: 2%;
+							background-color: #86b24c;
+							padding: 10px 35px 10px 35px;
+							color: #fff;
+						}	
+					}
+					.grafic_name{
+						dispaly: block;
+						position: relative;
+						margin-left: 2%;
+						color: #6a4d1e;
+					}
+					img{
+						display: block;
+						position: relative;
+						margin-left: 2%;
+						width: 96%;
+						margin-top: 20px;
+					}
+					
+					
+					
+					
+					
+					
+				
+				
+				
+				.record{
+					display: block;
+					position: relative;
+					margin-top: 30px;
+					margin-left: 285px;
+					
+					height: 71px;
+					width: 246px;
+					text-align: center;
+					background: url(../img/fon_record.png) no-repeat;
+					font-family: 'disneyparkregular';
+					font-size: 32pt;
+					color: $color_brown;
+					font-weight: 400;
+					padding-top: 9px;
+					line-height: 25px;
+					cursor: pointer;
+				}
+				.record:hover{
+					color: #825f25;
+				}
+			}
+			.menu_cont_4{
+				display: none;
+				position: relative;
+				width: 774px;
+				background-color: #fff;
+				font-size: 14pt;
+				padding-bottom: 30px;
+				padding-top: 20px;
+				border-radius: 0px 6px 6px 6px;
+				-webkit-border-radius: 0px 6px 6px 6px;
+				-moz-border-radius: 0px 6px 6px 6px;
+				-khtml-border-radius: 0px 6px 6px 6px;
+				.block_name4{
+					dispaly: block;
+					position: relative;
+					margin-left: 2%;					
+					color: #6a4d1e;
+				}
+				.test_data{
+					display: block;
+					position: relative;
+					background-color: #f8ebd6;
+					width: 96%;
+					height: 153px;
+					margin-left: 2%;
+					font-size: 0;
+					margin-top: 20px;
+					li{
+						display: inline-block;
+						position: relative;
+					/*	  */
+						width: 37px;
+						top: 5px;
+						left: 5px;
+						height: 148px;
+						font-style: italic;
+						border: 1px solid #d6b98b;
+						border-left: none;
+					}
+					li:first-child{
+						border-left: 1px solid #d6b98b;
+					}
+					li:last-child{
+						width: 45px;
+					}
+				}
+				.test_data_elem{
+					display: block;
+					position: absolute;
+					top: 120px;
+					width: 140px;
+					height: 30px;
+					font-style: italic;
+					color: #6a4d1e;
+					-moz-transform: rotate(-90deg);
+					-webkit-transform: rotate(-90deg);
+					-o-transform: rotate(-90deg);
+					writing-mode: tb-rl;
+				}
+				.vertical1{					
+					left: -26px;
+				}
+				.vertical2{					
+					left: 10px;
+				}
+				.vertical3{					
+					left: 47px;
+				}
+				.vertical4{					
+					left: 84px;
+				}
+				.vertical5{					
+					left: 121px;
+				}
+				.vertical6{					
+					left: 159px;
+				}
+				.vertical7{					
+					left: 197px;
+				}
+				.vertical8{					
+					left: 235px;
+				}
+				.vertical9{					
+					left: 273px;
+				}
+				.vertical10{					
+					left: 311px;
+				}
+				.vertical11{					
+					left: 349px;
+				}
+				.vertical12{					
+					left: 387px;
+				}
+				.vertical13{					
+					left: 426px;
+				}
+				.vertical14{					
+					left: 464px;
+				}
+				.vertical15{					
+					left: 502px;
+				}
+				.vertical16{					
+					left: 541px;
+				}
+				.vertical17{					
+					left: 579px;
+				}
+				.vertical18{					
+					left: 618px;
+				}
+				.vertical19{					
+					left: 658px;
+				}
+				
+				.test_data2{
+					display: block;
+					position: relative;
+					background-color: #f8ebd6;
+					width: 96%;
+					height: 37px;
+					margin-left: 2%;
+					font-size: 0;
+					top: -1px;
+					color: #6a4d1e;
+					li{
+						display: inline-block;
+						position: relative;
+					/*	-moz-transform: rotate(-90deg);
+						-webkit-transform: rotate(-90deg);
+						-o-transform: rotate(-90deg);
+						writing-mode: tb-rl;  */
+						width: 28px;
+						top: 0px;
+						left: 5px;
+						height: 26px;
+						font-style: bold;
+						border: 1px solid #d6b98b;
+						border-left: none;
+						font-size: 12pt;
+						padding-top: 3px;
+						padding-left: 9px;
+						
+					}
+					li:first-child{
+						border-left: 1px solid #d6b98b;
+					}
+					li:last-child{
+						width: 36px;
+					}
+				}
+			
+				.record{
+					display: block;
+					position: relative;
+					margin-top: 130px;
+					margin-left: 285px;
+					
+					height: 71px;
+					width: 246px;
+					text-align: center;
+					background: url(../img/fon_record.png) no-repeat;
+					font-family: 'disneyparkregular';
+					font-size: 32pt;
+					color: $color_brown;
+					font-weight: 400;
+					padding-top: 9px;
+					line-height: 25px;
+					cursor: pointer;
+				}
+				.record:hover{
+					color: #825f25;
+				}
+			}
+
+
+			
 		}
 			
 				.stop_scroll{

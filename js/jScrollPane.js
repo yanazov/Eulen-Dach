@@ -271,7 +271,7 @@ jQuery.fn.jScrollPane = function(settings)
 				var dragH = Math.max(Math.min(percentInView*(paneHeight-settings.arrowSize*2), settings.dragMaxHeight), settings.dragMinHeight);
 				
 				$drag.css(
-					{'height':19+'px'}
+					{'height':16+'px'}
 				).bind('mousedown', onStartDrag);
 				
 				var trackScrollInterval;

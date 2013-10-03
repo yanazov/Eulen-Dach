@@ -1215,7 +1215,427 @@ a:hover {
   font-family: 'georgiaregular';
   padding: 4px 0px 0px 40px;
 }
+/* line 1158, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_inner {
+  font-size: 10pt;
+  margin-bottom: 0px;
+}
 /* line 1161, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_inner li {
+  display: inline-block;
+  position: relative;
+  background-color: #a5a5a5;
+  color: #fff;
+  padding: 10px 12px 10px 12px;
+  cursor: pointer;
+  border-radius: 6px 6px 0px 0px;
+  -webkit-border-radius: 6px 6px 0px 0px;
+  -moz-border-radius: 6px 6px 0px 0px;
+  -khtml-border-radius: 6px 6px 0px 0px;
+}
+/* line 1174, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_inner li:first-child {
+  background-color: #fff;
+  color: #6a4d1e;
+  cursor: default;
+}
+/* line 1180, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_1 {
+  display: block;
+  position: relative;
+  width: 774px;
+  background-color: #fff;
+  font-size: 14pt;
+  padding-bottom: 30px;
+  border-radius: 0px 6px 6px 6px;
+  -webkit-border-radius: 0px 6px 6px 6px;
+  -moz-border-radius: 0px 6px 6px 6px;
+  -khtml-border-radius: 0px 6px 6px 6px;
+}
+/* line 1192, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_1 .month {
+  display: inline-block;
+  position: relative;
+  left: 315px;
+  margin-top: 20px;
+  color: #6a4d1e;
+}
+/* line 1199, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_1 .group_ArrowLeft {
+  display: block;
+  position: absolute;
+  top: 25px;
+  left: 258px;
+  background: url(../img/arrowleft_m.png) no-repeat;
+  width: 23px;
+  height: 22px;
+  z-index: 10;
+  cursor: pointer;
+}
+/* line 1210, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_1 .group_ArrowRight {
+  display: block;
+  position: absolute;
+  top: 25px;
+  right: 332px;
+  background: url(../img/arrowright_m.png) no-repeat;
+  width: 23px;
+  height: 22px;
+  z-index: 10;
+  cursor: pointer;
+}
+/* line 1221, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_1 .fon_table {
+  display: block;
+  position: relative;
+  margin-top: 20px;
+  background: url(../img/fon_dark.png);
+  padding-top: 5px;
+  padding-bottom: 5px;
+  height: 398px;
+  z-index: 20;
+  left: 2%;
+  width: 96%;
+}
+/* line 1232, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_1 .fon_table .price_ul {
+  display: block;
+  position: relative;
+  margin: 0px 0px 0px 5px;
+  width: 98.5%;
+  border: 1px solid #d6b98b;
+  padding-top: 10px;
+  height: 50px;
+}
+/* line 1240, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_1 .fon_table .price_ul li {
+  display: inline-block;
+  position: relative;
+  font-family: 'georgiaitalic';
+  font-size: 12pt;
+  color: #6a4d20;
+  width: 170px;
+  vertical-align: top;
+  margin-left: 65px;
+  padding: 9px 0px 9px 0px;
+}
+/* line 1255, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_1 .fon_table .price_ul li:last-child {
+  width: 145px;
+}
+/* line 1261, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_1 .fon_table .price_content {
+  display: block;
+  position: relative;
+  margin: 0px;
+  margin-left: 5px;
+  width: 98.5%;
+  border: 1px solid #d6b98b;
+  border-top: none;
+}
+/* line 1271, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_1 .fon_table .price_content .price_li .price_ul_dark li {
+  display: inline-block;
+  position: relative;
+  font-family: 'georgiaregular';
+  font-size: 11pt;
+  color: #6a4d20;
+  width: 170px;
+  vertical-align: top;
+  margin-left: 65px;
+  padding: 9px 0px 9px 0px;
+  padding-top: 18px;
+  height: 29px;
+}
+/* line 1285, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_1 .fon_table .price_content .price_li .price_ul_dark li:last-child {
+  width: 145px;
+}
+/* line 1289, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_1 .fon_table .price_content .price_li .price_ul_light {
+  background: url(../img/fon_light.png);
+  /*background-color: #f38;*/
+}
+/* line 1292, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_1 .fon_table .price_content .price_li .price_ul_light li {
+  display: inline-block;
+  position: relative;
+  font-family: 'georgiaregular';
+  font-size: 11pt;
+  color: #6a4d20;
+  width: 170px;
+  vertical-align: top;
+  margin-left: 65px;
+  padding: 9px 0px 9px 0px;
+  padding-top: 18px;
+  height: 29px;
+}
+/* line 1305, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_1 .fon_table .price_content .price_li .price_ul_light li:last-child {
+  width: 145px;
+}
+/* line 1312, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_1 .status_txt {
+  display: block;
+  position: relative;
+  width: 100%;
+  text-align: right;
+  margin-top: 18px;
+  font-size: 10pt;
+  color: #6a4d1e;
+}
+/* line 1320, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_1 .status_txt .status {
+  display: inline-block;
+  position: relative;
+  margin-right: 2%;
+  margin-left: 2%;
+  background-color: #86b24c;
+  padding: 10px 35px 10px 35px;
+  color: #fff;
+}
+/* line 1330, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_1 .grafic_name {
+  dispaly: block;
+  position: relative;
+  margin-left: 2%;
+  color: #6a4d1e;
+}
+/* line 1336, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_1 img {
+  display: block;
+  position: relative;
+  margin-left: 2%;
+  width: 96%;
+  margin-top: 20px;
+}
+/* line 1352, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_1 .record {
+  display: block;
+  position: relative;
+  margin-top: 30px;
+  margin-left: 285px;
+  height: 71px;
+  width: 246px;
+  text-align: center;
+  background: url(../img/fon_record.png) no-repeat;
+  font-family: 'disneyparkregular';
+  font-size: 32pt;
+  color: #6a4d1e;
+  font-weight: 400;
+  padding-top: 9px;
+  line-height: 25px;
+  cursor: pointer;
+}
+/* line 1370, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_1 .record:hover {
+  color: #825f25;
+}
+/* line 1374, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_4 {
+  display: none;
+  position: relative;
+  width: 774px;
+  background-color: #fff;
+  font-size: 14pt;
+  padding-bottom: 30px;
+  padding-top: 20px;
+  border-radius: 0px 6px 6px 6px;
+  -webkit-border-radius: 0px 6px 6px 6px;
+  -moz-border-radius: 0px 6px 6px 6px;
+  -khtml-border-radius: 0px 6px 6px 6px;
+}
+/* line 1386, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_4 .block_name4 {
+  dispaly: block;
+  position: relative;
+  margin-left: 2%;
+  color: #6a4d1e;
+}
+/* line 1392, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_4 .test_data {
+  display: block;
+  position: relative;
+  background-color: #f8ebd6;
+  width: 96%;
+  height: 153px;
+  margin-left: 2%;
+  font-size: 0;
+  margin-top: 20px;
+}
+/* line 1401, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_4 .test_data li {
+  display: inline-block;
+  position: relative;
+  /*	  */
+  width: 37px;
+  top: 5px;
+  left: 5px;
+  height: 148px;
+  font-style: italic;
+  border: 1px solid #d6b98b;
+  border-left: none;
+}
+/* line 1413, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_4 .test_data li:first-child {
+  border-left: 1px solid #d6b98b;
+}
+/* line 1416, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_4 .test_data li:last-child {
+  width: 45px;
+}
+/* line 1420, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_4 .test_data_elem {
+  display: block;
+  position: absolute;
+  top: 120px;
+  width: 140px;
+  height: 30px;
+  font-style: italic;
+  color: #6a4d1e;
+  -moz-transform: rotate(-90deg);
+  -webkit-transform: rotate(-90deg);
+  -o-transform: rotate(-90deg);
+  writing-mode: tb-rl;
+}
+/* line 1433, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_4 .vertical1 {
+  left: -26px;
+}
+/* line 1436, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_4 .vertical2 {
+  left: 10px;
+}
+/* line 1439, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_4 .vertical3 {
+  left: 47px;
+}
+/* line 1442, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_4 .vertical4 {
+  left: 84px;
+}
+/* line 1445, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_4 .vertical5 {
+  left: 121px;
+}
+/* line 1448, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_4 .vertical6 {
+  left: 159px;
+}
+/* line 1451, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_4 .vertical7 {
+  left: 197px;
+}
+/* line 1454, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_4 .vertical8 {
+  left: 235px;
+}
+/* line 1457, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_4 .vertical9 {
+  left: 273px;
+}
+/* line 1460, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_4 .vertical10 {
+  left: 311px;
+}
+/* line 1463, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_4 .vertical11 {
+  left: 349px;
+}
+/* line 1466, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_4 .vertical12 {
+  left: 387px;
+}
+/* line 1469, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_4 .vertical13 {
+  left: 426px;
+}
+/* line 1472, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_4 .vertical14 {
+  left: 464px;
+}
+/* line 1475, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_4 .vertical15 {
+  left: 502px;
+}
+/* line 1478, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_4 .vertical16 {
+  left: 541px;
+}
+/* line 1481, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_4 .vertical17 {
+  left: 579px;
+}
+/* line 1484, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_4 .vertical18 {
+  left: 618px;
+}
+/* line 1487, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_4 .vertical19 {
+  left: 658px;
+}
+/* line 1491, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_4 .test_data2 {
+  display: block;
+  position: relative;
+  background-color: #f8ebd6;
+  width: 96%;
+  height: 37px;
+  margin-left: 2%;
+  font-size: 0;
+  top: -1px;
+  color: #6a4d1e;
+}
+/* line 1501, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_4 .test_data2 li {
+  display: inline-block;
+  position: relative;
+  /*	-moz-transform: rotate(-90deg);
+  	-webkit-transform: rotate(-90deg);
+  	-o-transform: rotate(-90deg);
+  	writing-mode: tb-rl;  */
+  width: 28px;
+  top: 0px;
+  left: 5px;
+  height: 26px;
+  font-style: bold;
+  border: 1px solid #d6b98b;
+  border-left: none;
+  font-size: 12pt;
+  padding-top: 3px;
+  padding-left: 9px;
+}
+/* line 1520, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_4 .test_data2 li:first-child {
+  border-left: 1px solid #d6b98b;
+}
+/* line 1523, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_4 .test_data2 li:last-child {
+  width: 36px;
+}
+/* line 1528, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_4 .record {
+  display: block;
+  position: relative;
+  margin-top: 130px;
+  margin-left: 285px;
+  height: 71px;
+  width: 246px;
+  text-align: center;
+  background: url(../img/fon_record.png) no-repeat;
+  font-family: 'disneyparkregular';
+  font-size: 32pt;
+  color: #6a4d1e;
+  font-weight: 400;
+  padding-top: 9px;
+  line-height: 25px;
+  cursor: pointer;
+}
+/* line 1546, ../sass/styles.scss */
+.fon_back .fon_midlle .scroll-wrap .main_content .menu_cont_4 .record:hover {
+  color: #825f25;
+}
+/* line 1555, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .stop_scroll {
   display: inline-block;
   position: relative;
@@ -1224,7 +1644,7 @@ a:hover {
   width: 100%;
   height: 450px;
 }
-/* line 1169, ../sass/styles.scss */
+/* line 1563, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .stop_scroll2 {
   display: block;
   position: relative;
@@ -1233,7 +1653,7 @@ a:hover {
   width: 100%;
   height: 10px;
 }
-/* line 1177, ../sass/styles.scss */
+/* line 1571, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .stop_scroll3 {
   display: block;
   position: relative;
@@ -1241,11 +1661,11 @@ a:hover {
   width: 100%;
   height: 10px;
 }
-/* line 1184, ../sass/styles.scss */
+/* line 1578, ../sass/styles.scss */
 .fon_back .fon_midlle .scroll-wrap .first_content {
   height: 630px;
 }
-/* line 1188, ../sass/styles.scss */
+/* line 1582, ../sass/styles.scss */
 .fon_back .fon_midlle .main_scroll {
   display: block;
   position: relative;
@@ -1254,20 +1674,20 @@ a:hover {
   height: 625px;
 }
 
-/* line 1198, ../sass/styles.scss */
+/* line 1592, ../sass/styles.scss */
 .footer {
   display: block;
   position: relative;
   text-align: center;
 }
-/* line 1202, ../sass/styles.scss */
+/* line 1596, ../sass/styles.scss */
 .footer .footer_center {
   display: inline-block;
   position: relative;
   width: 887px;
   text-align: left;
 }
-/* line 1207, ../sass/styles.scss */
+/* line 1601, ../sass/styles.scss */
 .footer .footer_center .copyrite {
   display: inline-block;
   position: relative;
@@ -1276,7 +1696,7 @@ a:hover {
   font-family: 'georgiaregular';
   font-size: 11pt;
 }
-/* line 1215, ../sass/styles.scss */
+/* line 1609, ../sass/styles.scss */
 .footer .footer_center .footer_menu1 {
   display: inline-block;
   position: relative;
@@ -1285,11 +1705,11 @@ a:hover {
   font-family: 'georgiaregular';
   font-size: 11pt;
 }
-/* line 1222, ../sass/styles.scss */
+/* line 1616, ../sass/styles.scss */
 .footer .footer_center .footer_menu1 a {
   color: #fff;
 }
-/* line 1226, ../sass/styles.scss */
+/* line 1620, ../sass/styles.scss */
 .footer .footer_center .footer_menu2 {
   display: inline-block;
   position: relative;
@@ -1298,11 +1718,11 @@ a:hover {
   font-family: 'georgiaregular';
   font-size: 11pt;
 }
-/* line 1233, ../sass/styles.scss */
+/* line 1627, ../sass/styles.scss */
 .footer .footer_center .footer_menu2 a {
   color: #fff;
 }
-/* line 1237, ../sass/styles.scss */
+/* line 1631, ../sass/styles.scss */
 .footer .footer_center .made_in {
   float: right;
   margin-top: 40px;
@@ -1311,7 +1731,7 @@ a:hover {
   color: #fff;
   text-align: right;
 }
-/* line 1244, ../sass/styles.scss */
+/* line 1638, ../sass/styles.scss */
 .footer .footer_center .made_in a {
   color: #fff;
 }
